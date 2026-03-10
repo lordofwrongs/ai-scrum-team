@@ -1,26 +1,19 @@
-# Dependencies
-/node_modules
+# Ignore node_modules
+node_modules
 
-# Production
-/build
+# Ignore build output
+frontend/build
+backend/build
 
-# Logs
-logs
+# Ignore log files
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Environment variables
+# Ignore environment variables
 .env
-.env.*
 
-# Render specific
-# For Render, we don't need to explicitly ignore build artifacts 
-# if they are generated as part of the build process managed by Render.
-# However, if you have local build directories not part of the repo:
-# /frontend/build
+# Ignore editor specific files
+.vscode/
+*.swp
