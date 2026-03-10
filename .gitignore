@@ -1,27 +1,6 @@
-# Dependencies
-/node_modules
-
-# Build output
-/frontend/build
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Runtime data
-pids
-*.pid
-*.pid.lock
-
-# IDE files
-.idea
-.vscode
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
+IyBEZXBlbmRlbmNpZXMKL25vZGVfbW9kdWxlcwoKIyBCdWlsZCBvdXRwdXQK
+L2Zyb250ZW5kL2J1aWxkCgojIExvZ3MKbG9ncwoqLmxvZwpucG0tZGVidWcu
+bG9nKgp5YXJuLWRlYnVnLmxvZyoKeWFybi1lcnJvci5sb2cqCgojIFJ1bnRp
+bWUgZGF0YQpwaWRzCioucGlkCioucGlkLmxvY2sKCiMgSURFIGZpbGVzCi5p
+ZGVhCi52c2NvZGUKKi5zd3AKKi5zd28KCiMgT1MgZ2VuZXJhdGVkIGZpbGVz
+Ci5EU19TdG9yZQpUaHVtYnMuZGIK
