@@ -4,8 +4,6 @@ import './App.css';
 function App() {
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState('');
-  const [editingTask, setEditingTask] = useState(null);
-  const [editedText, setEditedText] = useState('');
 
   useEffect(() => {
     fetchTasks();
@@ -21,22 +19,23 @@ function App() {
     }
   };
 
-  const addTask = async () => {
-    if (newTask.trim()) {
-      try {
-        const response = await fetch('/api/tasks', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ text: newTask }),
-        });
-        const addedTask = await response.json();
-        setTasks([...tasks, addedTask]);
-        setNewTask('');
-      } catch (error) {
-        console.error('Error adding task:', error);
-      }
+  const addTask = async (e) => {
+    e.preventDefault();
+    if (!newTask.trim()) return;
+
+    try {
+      const response = await fetch('/api/tasks', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ title: newTask }),
+      });
+      const addedTask = await response.json();
+      setTasks([...tasks, addedTask]);
+      setNewTask('');
+    } catch (error) {
+      console.error('Error adding task:', error);
     }
   };
 
@@ -51,83 +50,23 @@ function App() {
     }
   };
 
-  const completeTask = async (id) => {
-    try {
-      const response = await fetch(`/api/tasks/${id}/complete`, {
-        method: 'PUT',
-      });
-      const updatedTask = await response.json();
-      setTasks(tasks.map(task => (task.id === id ? updatedTask : task)));
-    } catch (error) {
-      console.error('Error completing task:', error);
-    }
-  };
-
-  const startEditing = (task) => {
-    setEditingTask(task.id);
-    setEditedText(task.text);
-  };
-
-  const cancelEditing = () => {
-    setEditingTask(null);
-    setEditedText('');
-  };
-
-  const updateTask = async (id) => {
-    if (editedText.trim()) {
-      try {
-        const response = await fetch(`/api/tasks/${id}`, {
-          method: 'PUT',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ text: editedText }),
-        });
-        const updatedTask = await response.json();
-        setTasks(tasks.map(task => (task.id === id ? updatedTask : task)));
-        setEditingTask(null);
-        setEditedText('');
-      } catch (error) {
-        console.error('Error updating task:', error);
-      }
-    }
-  };
-
   return (
     <div className="App">
       <h1>Task Management</h1>
-      <div className="input-area">
+      <form onSubmit={addTask}>
         <input
           type="text"
+          placeholder="Add a new task"
           value={newTask}
           onChange={(e) => setNewTask(e.target.value)}
-          placeholder="Add a new task"
         />
-        <button onClick={addTask}>Add Task</button>
-      </div>
-      <ul className="task-list">
+        <button type="submit">Add Task</button>
+      </form>
+      <ul>
         {tasks.map(task => (
-          <li key={task.id} className={task.completed ? 'completed' : ''}>
-            {editingTask === task.id ? (
-              <div className="edit-area">
-                <input
-                  type="text"
-                  value={editedText}
-                  onChange={(e) => setEditedText(e.target.value)}
-                />
-                <button onClick={() => updateTask(task.id)}>Save</button>
-                <button onClick={cancelEditing}>Cancel</button>
-              </div>
-            ) : (
-              <div className="task-content">
-                <span>{task.text}</span>
-                <div className="task-actions">
-                  <button onClick={() => completeTask(task.id)}>{task.completed ? 'Undo' : 'Complete'}</button>
-                  <button onClick={() => startEditing(task)}>Edit</button>
-                  <button onClick={() => deleteTask(task.id)}>Delete</button>
-                </div>
-              </div>
-            )}
+          <li key={task.id}>
+            {task.title}
+            <button onClick={() => deleteTask(task.id)}>Delete</button>
           </li>
         ))}
       </ul>
