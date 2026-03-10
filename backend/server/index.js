@@ -1,74 +1,59 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
+
 const app = express();
+const PORT = process.env.PORT || 3001;
 
-// For local development, allow requests from frontend's dev server
-// For production, configure specific origins or use a proxy
-const corsOptions = {
-  origin: '*', // WARNING: In production, restrict this to your frontend's domain
-  optionsSuccessStatus: 200
-};
-app.use(cors(corsOptions));
-
+// Middleware
+app.use(cors());
 app.use(express.json());
 
-// In-memory database for demonstration purposes
-// In a real application, this would be a PostgreSQL database
+// --- In-memory data store for tasks (replace with a database for production) ---
 let tasks = [
-  { id: 1, title: 'Learn React', completed: false },
-  { id: 2, title: 'Build Backend API', completed: false },
-  { id: 3, title: 'Deploy Application', completed: false }
+  { id: 1, title: 'Learn React' },
+  { id: 2, title: 'Build Full Stack App' },
 ];
-let nextId = 4;
+let nextTaskId = 3;
 
-// GET all tasks
+// --- API Routes ---
+
+// GET /api/tasks
 app.get('/api/tasks', (req, res) => {
   res.json(tasks);
 });
 
-// POST a new task
+// POST /api/tasks
 app.post('/api/tasks', (req, res) => {
   const { title } = req.body;
-  if (!title) {
+  if (!title || !title.trim()) {
     return res.status(400).json({ message: 'Task title is required' });
   }
   const newTask = {
-    id: nextId++,
-    title,
-    completed: false
+    id: nextTaskId++,
+    title: title.trim(),
   };
   tasks.push(newTask);
   res.status(201).json(newTask);
 });
 
-// PUT update a task (toggle completion)
-app.put('/api/tasks/:id', (req, res) => {
-  const taskId = parseInt(req.params.id, 10);
-  const { completed } = req.body;
-
-  const taskIndex = tasks.findIndex(task => task.id === taskId);
-  if (taskIndex === -1) {
-    return res.status(404).json({ message: 'Task not found' });
-  }
-
-  tasks[taskIndex].completed = completed !== undefined ? completed : tasks[taskIndex].completed;
-  res.json(tasks[taskIndex]);
+// GET /health
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'UP' });
 });
 
-// DELETE a task
-app.delete('/api/tasks/:id', (req, res) => {
-  const taskId = parseInt(req.params.id, 10);
-  const initialLength = tasks.length;
-  tasks = tasks.filter(task => task.id !== taskId);
+// --- Serve React Frontend ---
 
-  if (tasks.length === initialLength) {
-    return res.status(404).json({ message: 'Task not found' });
-  }
+// Serve static files from the React build folder
+app.use(express.static(path.join(__dirname, '..', '..', 'frontend', 'build')));
 
-  res.status(204).send(); // No content to send back
+// Handle all other routes by serving the React index.html file
+// This is crucial for React Router to work on the client side
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'frontend', 'build', 'index.html'));
 });
 
-const PORT = process.env.PORT || 5000;
+// --- Start Server ---
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
