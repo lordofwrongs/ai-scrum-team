@@ -1,74 +1,46 @@
-const express = require('express');
-const cors = require('cors');
-const app = express();
-
-// For local development, allow requests from frontend's dev server
-// For production, configure specific origins or use a proxy
-const corsOptions = {
-  origin: '*', // WARNING: In production, restrict this to your frontend's domain
-  optionsSuccessStatus: 200
-};
-app.use(cors(corsOptions));
-
-app.use(express.json());
-
-// In-memory database for demonstration purposes
-// In a real application, this would be a PostgreSQL database
-let tasks = [
-  { id: 1, title: 'Learn React', completed: false },
-  { id: 2, title: 'Build Backend API', completed: false },
-  { id: 3, title: 'Deploy Application', completed: false }
-];
-let nextId = 4;
-
-// GET all tasks
-app.get('/api/tasks', (req, res) => {
-  res.json(tasks);
-});
-
-// POST a new task
-app.post('/api/tasks', (req, res) => {
-  const { title } = req.body;
-  if (!title) {
-    return res.status(400).json({ message: 'Task title is required' });
-  }
-  const newTask = {
-    id: nextId++,
-    title,
-    completed: false
-  };
-  tasks.push(newTask);
-  res.status(201).json(newTask);
-});
-
-// PUT update a task (toggle completion)
-app.put('/api/tasks/:id', (req, res) => {
-  const taskId = parseInt(req.params.id, 10);
-  const { completed } = req.body;
-
-  const taskIndex = tasks.findIndex(task => task.id === taskId);
-  if (taskIndex === -1) {
-    return res.status(404).json({ message: 'Task not found' });
-  }
-
-  tasks[taskIndex].completed = completed !== undefined ? completed : tasks[taskIndex].completed;
-  res.json(tasks[taskIndex]);
-});
-
-// DELETE a task
-app.delete('/api/tasks/:id', (req, res) => {
-  const taskId = parseInt(req.params.id, 10);
-  const initialLength = tasks.length;
-  tasks = tasks.filter(task => task.id !== taskId);
-
-  if (tasks.length === initialLength) {
-    return res.status(404).json({ message: 'Task not found' });
-  }
-
-  res.status(204).send(); // No content to send back
-});
-
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+Y29uc3QgZXhwcmVzcyA9IHJlcXVpcmUoJ2V4cHJlc3MnKTsKY29uc3QgY29y
+cyA9IHJlcXVpcmUoJ2NvcnMnKTsKY29uc3QgYXBwID0gZXhwcmVzcygpOwoK
+Ly8gRm9yIGxvY2FsIGRldmVsb3BtZW50LCBhbGxvdyByZXF1ZXN0cyBmcm9t
+IGZyb250ZW5kJ3MgZGV2IHNlcnZlcgovLyBGb3IgcHJvZHVjdGlvbiwgY29u
+ZmlndXJlIHNwZWNpZmljIG9yaWdpbnMgb3IgdXNlIGEgcHJveHkKY29uc3Qg
+Y29yc09wdGlvbnMgPSB7CiAgb3JpZ2luOiAnKicsIC8vIFdBUk5JTkc6IElu
+IHByb2R1Y3Rpb24sIHJlc3RyaWN0IHRoaXMgdG8geW91ciBmcm9udGVuZCdz
+IGRvbWFpbgogIG9wdGlvbnNTdWNjZXNzU3RhdHVzOiAyMDAKfTsKYXBwLnVz
+ZShjb3JzKGNvcnNPcHRpb25zKSk7CgphcHAudXNlKGV4cHJlc3MuanNvbigp
+KTsKCi8vIEluLW1lbW9yeSBkYXRhYmFzZSBmb3IgZGVtb25zdHJhdGlvbiBw
+dXJwb3NlcwovLyBJbiBhIHJlYWwgYXBwbGljYXRpb24sIHRoaXMgd291bGQg
+YmUgYSBQb3N0Z3JlU1FMIGRhdGFiYXNlCmxldCB0YXNrcyA9IFsKICB7IGlk
+OiAxLCB0aXRsZTogJ0xlYXJuIFJlYWN0JywgY29tcGxldGVkOiBmYWxzZSB9
+LAogIHsgaWQ6IDIsIHRpdGxlOiAnQnVpbGQgQmFja2VuZCBBUEknLCBjb21w
+bGV0ZWQ6IGZhbHNlIH0sCiAgeyBpZDogMywgdGl0bGU6ICdEZXBsb3kgQXBw
+bGljYXRpb24nLCBjb21wbGV0ZWQ6IGZhbHNlIH0KXTsKbGV0IG5leHRJZCA9
+IDQ7CgovLyBHRVQgYWxsIHRhc2tzCmFwcC5nZXQoJy9hcGkvdGFza3MnLCAo
+cmVxLCByZXMpID0+IHsKICByZXMuanNvbih0YXNrcyk7Cn0pOwoKLy8gUE9T
+VCBhIG5ldyB0YXNrCmFwcC5wb3N0KCcvYXBpL3Rhc2tzJywgKHJlcSwgcmVz
+KSA9PiB7CiAgY29uc3QgeyB0aXRsZSB9ID0gcmVxLmJvZHk7CiAgaWYgKCF0
+aXRsZSkgewogICAgcmV0dXJuIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgbWVz
+c2FnZTogJ1Rhc2sgdGl0bGUgaXMgcmVxdWlyZWQnIH0pOwogIH0KICBjb25z
+dCBuZXdUYXNrID0gewogICAgaWQ6IG5leHRJZCsrLAogICAgdGl0bGUsCiAg
+ICBjb21wbGV0ZWQ6IGZhbHNlCiAgfTsKICB0YXNrcy5wdXNoKG5ld1Rhc2sp
+OwogIHJlcy5zdGF0dXMoMjAxKS5qc29uKG5ld1Rhc2spOwp9KTsKCi8vIFBV
+VCB1cGRhdGUgYSB0YXNrICh0b2dnbGUgY29tcGxldGlvbikKYXBwLnB1dCgn
+L2FwaS90YXNrcy86aWQnLCAocmVxLCByZXMpID0+IHsKICBjb25zdCB0YXNr
+SWQgPSBwYXJzZUludChyZXEucGFyYW1zLmlkLCAxMCk7CiAgY29uc3QgeyBj
+b21wbGV0ZWQgfSA9IHJlcS5ib2R5OwoKICBjb25zdCB0YXNrSW5kZXggPSB0
+YXNrcy5maW5kSW5kZXgodGFzayA9PiB0YXNrLmlkID09PSB0YXNrSWQpOwog
+IGlmICh0YXNrSW5kZXggPT09IC0xKSB7CiAgICByZXR1cm4gcmVzLnN0YXR1
+cyg0MDQpLmpzb24oeyBtZXNzYWdlOiAnVGFzayBub3QgZm91bmQnIH0pOwog
+IH0KCiAgdGFza3NbdGFza0luZGV4XS5jb21wbGV0ZWQgPSBjb21wbGV0ZWQg
+IT09IHVuZGVmaW5lZCA/IGNvbXBsZXRlZCA6IHRhc2tzW3Rhc2tJbmRleF0u
+Y29tcGxldGVkOwogIHJlcy5qc29uKHRhc2tzW3Rhc2tJbmRleF0pOwp9KTsK
+Ci8vIERFTEVURSBhIHRhc2sKYXBwLmRlbGV0ZSgnL2FwaS90YXNrcy86aWQn
+LCAocmVxLCByZXMpID0+IHsKICBjb25zdCB0YXNrSWQgPSBwYXJzZUludChy
+ZXEucGFyYW1zLmlkLCAxMCk7CiAgY29uc3QgaW5pdGlhbExlbmd0aCA9IHRh
+c2tzLmxlbmd0aDsKICB0YXNrcyA9IHRhc2tzLmZpbHRlcih0YXNrID0+IHRh
+c2suaWQgIT09IHRhc2tJZCk7CgogIGlmICh0YXNrcy5sZW5ndGggPT09IGlu
+aXRpYWxMZW5ndGgpIHsKICAgIHJldHVybiByZXMuc3RhdHVzKDQwNCkuanNv
+bih7IG1lc3NhZ2U6ICdUYXNrIG5vdCBmb3VuZCcgfSk7CiAgfQoKICByZXMu
+c3RhdHVzKDIwNCkuc2VuZCgpOyAvLyBObyBjb250ZW50IHRvIHNlbmQgYmFj
+awp9KTsKCmNvbnN0IFBPUlQgPSBwcm9jZXNzLmVudi5QT1JUIHx8IDUwMDA7
+CmFwcC5saXN0ZW4oUE9SVCwgKCkgPT4gewogIGNvbnNvbGUubG9nKGBTZXJ2
+ZXIgcnVubmluZyBvbiBwb3J0ICR7UE9SVH1gKTsKfSk7Cg==
