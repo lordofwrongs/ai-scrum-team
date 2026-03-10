@@ -1,63 +1,74 @@
-WTI5dWMzUWdaWGh3Y21WemN5QTlJSEpsY1hWcGNtVW9KMlY0Y0hKbGMzTW5L
-VHNLWTI5dWMzUWdZMjl5CmN5QTlJSEpsY1hWcGNtVW9KMk52Y25NbktUc0tZ
-Mjl1YzNRZ1lYQndJRDBnWlhod2NtVnpjeWdwT3dvSwpMeThnUm05eUlHeHZZ
-MkZzSUdSbGRtVnNiM0J0Wlc1MExDQmhiR3h2ZHlCeVpYRjFaWE4wY3lCbWNt
-OXQKSUdaeWIyNTBaVzVrSjNNZ1pHVjJJSE5sY25abGNnb3ZMeUJHYjNJZ2NI
-SnZaSFZqZEdsdmJpd2dZMjl1ClptbG5kWEpsSUhOd1pXTnBabWxqSUc5eWFX
-ZHBibk1nYjNJZ2RYTmxJR0VnY0hKdmVIa0tZMjl1YzNRZwpZMjl5YzA5d2RH
-bHZibk1nUFNCN0NpQWdiM0pwWjJsdU9pQW5LaWNzSUM4dklGZEJVazVKVGtj
-NklFbHUKSUhCeWIyUjFZM1JwYjI0c0lISmxjM1J5YVdOMElIUm9hWE1nZEc4
-Z2VXOTFjaUJtY205dWRHVnVaQ2R6CklHUnZiV0ZwYmdvZ0lHOXdkR2x2Ym5O
-VGRXTmpaWE56VTNSaGRIVnpPaUF5TURBS2ZUc0tZWEJ3TG5WegpaU2hqYjNK
-ektHTnZjbk5QY0hScGIyNXpLU2s3Q2dwaGNIQXVkWE5sS0dWNGNISmxjM011
-YW5OdmJpZ3AKS1RzS0NpOHZJRWx1TFcxbGJXOXllU0JrWVhSaFltRnpaU0Jt
-YjNJZ1pHVnRiMjV6ZEhKaGRHbHZiaUJ3CmRYSndiM05sY3dvdkx5QkpiaUJo
-SUhKbFlXd2dZWEJ3YkdsallYUnBiMjRzSUhSb2FYTWdkMjkxYkdRZwpZbVVn
-WVNCUWIzTjBaM0psVTFGTUlHUmhkR0ZpWVhObENteGxkQ0IwWVhOcmN5QTlJ
-RnNLSUNCN0lHbGsKT2lBeExDQjBhWFJzWlRvZ0oweGxZWEp1SUZKbFlXTjBK
-eXdnWTI5dGNHeGxkR1ZrT2lCbVlXeHpaU0I5CkxBb2dJSHNnYVdRNklESXNJ
-SFJwZEd4bE9pQW5RblZwYkdRZ1FtRmphMlZ1WkNCQlVFa25MQ0JqYjIxdwpi
-R1YwWldRNklHWmhiSE5sSUgwc0NpQWdleUJwWkRvZ015d2dkR2wwYkdVNklD
-ZEVaWEJzYjNrZ1FYQncKYkdsallYUnBiMjRuTENCamIyMXdiR1YwWldRNklH
-WmhiSE5sSUgwS1hUc0tiR1YwSUc1bGVIUkpaQ0E5CklEUTdDZ292THlCSFJW
-UWdZV3hzSUhSaGMydHpDbUZ3Y0M1blpYUW9KeTloY0drdmRHRnphM01uTENB
-bwpjbVZ4TENCeVpYTXBJRDArSUhzS0lDQnlaWE11YW5OdmJpaDBZWE5yY3lr
-N0NuMHBPd29LTHk4Z1VFOVQKVkNCaElHNWxkeUIwWVhOckNtRndjQzV3YjNO
-MEtDY3ZZWEJwTDNSaGMydHpKeXdnS0hKbGNTd2djbVZ6CktTQTlQaUI3Q2lB
-Z1kyOXVjM1FnZXlCMGFYUnNaU0I5SUQwZ2NtVnhMbUp2WkhrN0NpQWdhV1ln
-S0NGMAphWFJzWlNrZ2V3b2dJQ0FnY21WMGRYSnVJSEpsY3k1emRHRjBkWE1v
-TkRBd0tTNXFjMjl1S0hzZ2JXVnoKYzJGblpUb2dKMVJoYzJzZ2RHbDBiR1Vn
-YVhNZ2NtVnhkV2x5WldRbklIMHBPd29nSUgwS0lDQmpiMjV6CmRDQnVaWGRV
-WVhOcklEMGdld29nSUNBZ2FXUTZJRzVsZUhSSlpDc3JMQW9nSUNBZ2RHbDBi
-R1VzQ2lBZwpJQ0JqYjIxd2JHVjBaV1E2SUdaaGJITmxDaUFnZlRzS0lDQjBZ
-WE5yY3k1d2RYTm9LRzVsZDFSaGMyc3AKT3dvZ0lISmxjeTV6ZEdGMGRYTW9N
-akF4S1M1cWMyOXVLRzVsZDFSaGMyc3BPd3A5S1RzS0NpOHZJRkJWClZDQjFj
-R1JoZEdVZ1lTQjBZWE5ySUNoMGIyZG5iR1VnWTI5dGNHeGxkR2x2YmlrS1lY
-QndMbkIxZENnbgpMMkZ3YVM5MFlYTnJjeTg2YVdRbkxDQW9jbVZ4TENCeVpY
-TXBJRDArSUhzS0lDQmpiMjV6ZENCMFlYTnIKU1dRZ1BTQndZWEp6WlVsdWRD
-aHlaWEV1Y0dGeVlXMXpMbWxrTENBeE1DazdDaUFnWTI5dWMzUWdleUJqCmIy
-MXdiR1YwWldRZ2ZTQTlJSEpsY1M1aWIyUjVPd29LSUNCamIyNXpkQ0IwWVhO
-clNXNWtaWGdnUFNCMApZWE5yY3k1bWFXNWtTVzVrWlhnb2RHRnpheUE5UGlC
-MFlYTnJMbWxrSUQwOVBTQjBZWE5yU1dRcE93b2cKSUdsbUlDaDBZWE5yU1c1
-a1pYZ2dQVDA5SUMweEtTQjdDaUFnSUNCeVpYUjFjbTRnY21WekxuTjBZWFIx
-CmN5ZzBNRFFwTG1wemIyNG9leUJ0WlhOellXZGxPaUFuVkdGemF5QnViM1Fn
-Wm05MWJtUW5JSDBwT3dvZwpJSDBLQ2lBZ2RHRnphM05iZEdGemEwbHVaR1Y0
-WFM1amIyMXdiR1YwWldRZ1BTQmpiMjF3YkdWMFpXUWcKSVQwOUlIVnVaR1Zt
-YVc1bFpDQS9JR052YlhCc1pYUmxaQ0E2SUhSaGMydHpXM1JoYzJ0SmJtUmxl
-RjB1ClkyOXRjR3hsZEdWa093b2dJSEpsY3k1cWMyOXVLSFJoYzJ0elczUmhj
-MnRKYm1SbGVGMHBPd3A5S1RzSwpDaTh2SUVSRlRFVlVSU0JoSUhSaGMyc0tZ
-WEJ3TG1SbGJHVjBaU2duTDJGd2FTOTBZWE5yY3k4NmFXUW4KTENBb2NtVnhM
-Q0J5WlhNcElEMCtJSHNLSUNCamIyNXpkQ0IwWVhOclNXUWdQU0J3WVhKelpV
-bHVkQ2h5ClpYRXVjR0Z5WVcxekxtbGtMQ0F4TUNrN0NpQWdZMjl1YzNRZ2FX
-NXBkR2xoYkV4bGJtZDBhQ0E5SUhSaApjMnR6TG14bGJtZDBhRHNLSUNCMFlY
-TnJjeUE5SUhSaGMydHpMbVpwYkhSbGNpaDBZWE5ySUQwK0lIUmgKYzJzdWFX
-UWdJVDA5SUhSaGMydEpaQ2s3Q2dvZ0lHbG1JQ2gwWVhOcmN5NXNaVzVuZEdn
-Z1BUMDlJR2x1CmFYUnBZV3hNWlc1bmRHZ3BJSHNLSUNBZ0lISmxkSFZ5YmlC
-eVpYTXVjM1JoZEhWektEUXdOQ2t1YW5OdgpiaWg3SUcxbGMzTmhaMlU2SUNk
-VVlYTnJJRzV2ZENCbWIzVnVaQ2NnZlNrN0NpQWdmUW9LSUNCeVpYTXUKYzNS
-aGRIVnpLREl3TkNrdWMyVnVaQ2dwT3lBdkx5Qk9ieUJqYjI1MFpXNTBJSFJ2
-SUhObGJtUWdZbUZqCmF3cDlLVHNLQ21OdmJuTjBJRkJQVWxRZ1BTQndjbTlq
-WlhOekxtVnVkaTVRVDFKVUlIeDhJRFV3TURBNwpDbUZ3Y0M1c2FYTjBaVzRv
-VUU5U1ZDd2dLQ2tnUFQ0Z2V3b2dJR052Ym5OdmJHVXViRzluS0dCVFpYSjIK
-WlhJZ2NuVnVibWx1WnlCdmJpQndiM0owSUNSN1VFOVNWSDFnS1RzS2ZTazdD
-Zz09Cg==
+const express = require('express');
+const cors = require('cors');
+const app = express();
+
+// For local development, allow requests from frontend's dev server
+// For production, configure specific origins or use a proxy
+const corsOptions = {
+  origin: '*', // WARNING: In production, restrict this to your frontend's domain
+  optionsSuccessStatus: 200
+};
+app.use(cors(corsOptions));
+
+app.use(express.json());
+
+// In-memory database for demonstration purposes
+// In a real application, this would be a PostgreSQL database
+let tasks = [
+  { id: 1, title: 'Learn React', completed: false },
+  { id: 2, title: 'Build Backend API', completed: false },
+  { id: 3, title: 'Deploy Application', completed: false }
+];
+let nextId = 4;
+
+// GET all tasks
+app.get('/api/tasks', (req, res) => {
+  res.json(tasks);
+});
+
+// POST a new task
+app.post('/api/tasks', (req, res) => {
+  const { title } = req.body;
+  if (!title) {
+    return res.status(400).json({ message: 'Task title is required' });
+  }
+  const newTask = {
+    id: nextId++,
+    title,
+    completed: false
+  };
+  tasks.push(newTask);
+  res.status(201).json(newTask);
+});
+
+// PUT update a task (toggle completion)
+app.put('/api/tasks/:id', (req, res) => {
+  const taskId = parseInt(req.params.id, 10);
+  const { completed } = req.body;
+
+  const taskIndex = tasks.findIndex(task => task.id === taskId);
+  if (taskIndex === -1) {
+    return res.status(404).json({ message: 'Task not found' });
+  }
+
+  tasks[taskIndex].completed = completed !== undefined ? completed : tasks[taskIndex].completed;
+  res.json(tasks[taskIndex]);
+});
+
+// DELETE a task
+app.delete('/api/tasks/:id', (req, res) => {
+  const taskId = parseInt(req.params.id, 10);
+  const initialLength = tasks.length;
+  tasks = tasks.filter(task => task.id !== taskId);
+
+  if (tasks.length === initialLength) {
+    return res.status(404).json({ message: 'Task not found' });
+  }
+
+  res.status(204).send(); // No content to send back
+});
+
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
