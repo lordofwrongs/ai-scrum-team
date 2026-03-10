@@ -1,138 +1,88 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
-
-function App() {
-  const [tasks, setTasks] = useState([]);
-  const [newTask, setNewTask] = useState('');
-  const [editingTask, setEditingTask] = useState(null);
-  const [editedText, setEditedText] = useState('');
-
-  useEffect(() => {
-    fetchTasks();
-  }, []);
-
-  const fetchTasks = async () => {
-    try {
-      const response = await fetch('/api/tasks');
-      const data = await response.json();
-      setTasks(data);
-    } catch (error) {
-      console.error('Error fetching tasks:', error);
-    }
-  };
-
-  const addTask = async () => {
-    if (newTask.trim()) {
-      try {
-        const response = await fetch('/api/tasks', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ text: newTask }),
-        });
-        const addedTask = await response.json();
-        setTasks([...tasks, addedTask]);
-        setNewTask('');
-      } catch (error) {
-        console.error('Error adding task:', error);
-      }
-    }
-  };
-
-  const deleteTask = async (id) => {
-    try {
-      await fetch(`/api/tasks/${id}`, {
-        method: 'DELETE',
-      });
-      setTasks(tasks.filter(task => task.id !== id));
-    } catch (error) {
-      console.error('Error deleting task:', error);
-    }
-  };
-
-  const completeTask = async (id) => {
-    try {
-      const response = await fetch(`/api/tasks/${id}/complete`, {
-        method: 'PUT',
-      });
-      const updatedTask = await response.json();
-      setTasks(tasks.map(task => (task.id === id ? updatedTask : task)));
-    } catch (error) {
-      console.error('Error completing task:', error);
-    }
-  };
-
-  const startEditing = (task) => {
-    setEditingTask(task.id);
-    setEditedText(task.text);
-  };
-
-  const cancelEditing = () => {
-    setEditingTask(null);
-    setEditedText('');
-  };
-
-  const updateTask = async (id) => {
-    if (editedText.trim()) {
-      try {
-        const response = await fetch(`/api/tasks/${id}`, {
-          method: 'PUT',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ text: editedText }),
-        });
-        const updatedTask = await response.json();
-        setTasks(tasks.map(task => (task.id === id ? updatedTask : task)));
-        setEditingTask(null);
-        setEditedText('');
-      } catch (error) {
-        console.error('Error updating task:', error);
-      }
-    }
-  };
-
-  return (
-    <div className="App">
-      <h1>Task Management</h1>
-      <div className="input-area">
-        <input
-          type="text"
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          placeholder="Add a new task"
-        />
-        <button onClick={addTask}>Add Task</button>
-      </div>
-      <ul className="task-list">
-        {tasks.map(task => (
-          <li key={task.id} className={task.completed ? 'completed' : ''}>
-            {editingTask === task.id ? (
-              <div className="edit-area">
-                <input
-                  type="text"
-                  value={editedText}
-                  onChange={(e) => setEditedText(e.target.value)}
-                />
-                <button onClick={() => updateTask(task.id)}>Save</button>
-                <button onClick={cancelEditing}>Cancel</button>
-              </div>
-            ) : (
-              <div className="task-content">
-                <span>{task.text}</span>
-                <div className="task-actions">
-                  <button onClick={() => completeTask(task.id)}>{task.completed ? 'Undo' : 'Complete'}</button>
-                  <button onClick={() => startEditing(task)}>Edit</button>
-                  <button onClick={() => deleteTask(task.id)}>Delete</button>
-                </div>
-              </div>
-            )}
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-
-export default App;
+aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlLCB1c2VFZmZlY3QgfSBmcm9tICdy
+ZWFjdCc7CmltcG9ydCAnLi9BcHAuY3NzJzsKCmZ1bmN0aW9uIEFwcCgpIHsK
+ICBjb25zdCBbdGFza3MsIHNldFRhc2tzXSA9IHVzZVN0YXRlKFtdKTsKICBj
+b25zdCBbbmV3VGFzaywgc2V0TmV3VGFza10gPSB1c2VTdGF0ZSgnJyk7CiAg
+Y29uc3QgW2VkaXRpbmdUYXNrLCBzZXRFZGl0aW5nVGFza10gPSB1c2VTdGF0
+ZShudWxsKTsKICBjb25zdCBbZWRpdGVkVGV4dCwgc2V0RWRpdGVkVGV4dF0g
+PSB1c2VTdGF0ZSgnJyk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBmZXRj
+aFRhc2tzKCk7CiAgfSwgW10pOwoKICBjb25zdCBmZXRjaFRhc2tzID0gYXN5
+bmMgKCkgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzcG9uc2UgPSBh
+d2FpdCBmZXRjaCgnL2FwaS90YXNrcycpOwogICAgICBjb25zdCBkYXRhID0g
+YXdhaXQgcmVzcG9uc2UuanNvbigpOwogICAgICBzZXRUYXNrcyhkYXRhKTsK
+ICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vy
+cm9yIGZldGNoaW5nIHRhc2tzOicsIGVycm9yKTsKICAgIH0KICB9OwoKICBj
+b25zdCBhZGRUYXNrID0gYXN5bmMgKCkgPT4gewogICAgaWYgKG5ld1Rhc2su
+dHJpbSgpKSB7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgcmVzcG9uc2Ug
+PSBhd2FpdCBmZXRjaCgnL2FwaS90YXNrcycsIHsKICAgICAgICAgIG1ldGhv
+ZDogJ1BPU1QnLAogICAgICAgICAgaGVhZGVyczogewogICAgICAgICAgICAn
+Q29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nLAogICAgICAgICAg
+fSwKICAgICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgdGV4dDogbmV3
+VGFzayB9KSwKICAgICAgICB9KTsKICAgICAgICBjb25zdCBhZGRlZFRhc2sg
+PSBhd2FpdCByZXNwb25zZS5qc29uKCk7CiAgICAgICAgc2V0VGFza3MoWy4u
+LnRhc2tzLCBhZGRlZFRhc2tdKTsKICAgICAgICBzZXROZXdUYXNrKCcnKTsK
+ICAgICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgICBjb25zb2xlLmVycm9y
+KCdFcnJvciBhZGRpbmcgdGFzazonLCBlcnJvcik7CiAgICAgIH0KICAgIH0K
+ICB9OwoKICBjb25zdCBkZWxldGVUYXNrID0gYXN5bmMgKGlkKSA9PiB7CiAg
+ICB0cnkgewogICAgICBhd2FpdCBmZXRjaChgL2FwaS90YXNrcy8ke2lkfWAs
+IHsKICAgICAgICBtZXRob2Q6ICdERUxFVEUnLAogICAgICB9KTsKICAgICAg
+c2V0VGFza3ModGFza3MuZmlsdGVyKHRhc2sgPT4gdGFzay5pZCAhPT0gaWQp
+KTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGNvbnNvbGUuZXJyb3Io
+J0Vycm9yIGRlbGV0aW5nIHRhc2s6JywgZXJyb3IpOwogICAgfQogIH07Cgog
+IGNvbnN0IGNvbXBsZXRlVGFzayA9IGFzeW5jIChpZCkgPT4gewogICAgdHJ5
+IHsKICAgICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaChgL2FwaS90
+YXNrcy8ke2lkfS9jb21wbGV0ZWAsIHsKICAgICAgICBtZXRob2Q6ICdQVVQn
+LAogICAgICB9KTsKICAgICAgY29uc3QgdXBkYXRlZFRhc2sgPSBhd2FpdCBy
+ZXNwb25zZS5qc29uKCk7CiAgICAgIHNldFRhc2tzKHRhc2tzLm1hcCh0YXNr
+ID0+ICh0YXNrLmlkID09PSBpZCA/IHVwZGF0ZWRUYXNrIDogdGFzaykpKTsK
+ICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vy
+cm9yIGNvbXBsZXRpbmcgdGFzazonLCBlcnJvcik7CiAgICB9CiAgfTsKCiAg
+Y29uc3Qgc3RhcnRFZGl0aW5nID0gKHRhc2spID0+IHsKICAgIHNldEVkaXRp
+bmdUYXNrKHRhc2suaWQpOwogICAgc2V0RWRpdGVkVGV4dCh0YXNrLnRleHQp
+OwogIH07CgogIGNvbnN0IGNhbmNlbEVkaXRpbmcgPSAoKSA9PiB7CiAgICBz
+ZXRFZGl0aW5nVGFzayhudWxsKTsKICAgIHNldEVkaXRlZFRleHQoJycpOwog
+IH07CgogIGNvbnN0IHVwZGF0ZVRhc2sgPSBhc3luYyAoaWQpID0+IHsKICAg
+IGlmIChlZGl0ZWRUZXh0LnRyaW0oKSkgewogICAgICB0cnkgewogICAgICAg
+IGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2goYC9hcGkvdGFza3MvJHtp
+ZH1gLCB7CiAgICAgICAgICBtZXRob2Q6ICdQVVQnLAogICAgICAgICAgaGVh
+ZGVyczogewogICAgICAgICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0
+aW9uL2pzb24nLAogICAgICAgICAgfSwKICAgICAgICAgIGJvZHk6IEpTT04u
+c3RyaW5naWZ5KHsgdGV4dDogZWRpdGVkVGV4dCB9KSwKICAgICAgICB9KTsK
+ICAgICAgICBjb25zdCB1cGRhdGVkVGFzayA9IGF3YWl0IHJlc3BvbnNlLmpz
+b24oKTsKICAgICAgICBzZXRUYXNrcyh0YXNrcy5tYXAodGFzayA9PiAodGFz
+ay5pZCA9PT0gaWQgPyB1cGRhdGVkVGFzayA6IHRhc2spKSk7CiAgICAgICAg
+c2V0RWRpdGluZ1Rhc2sobnVsbCk7CiAgICAgICAgc2V0RWRpdGVkVGV4dCgn
+Jyk7CiAgICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgICAgY29uc29sZS5l
+cnJvcignRXJyb3IgdXBkYXRpbmcgdGFzazonLCBlcnJvcik7CiAgICAgIH0K
+ICAgIH0KICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9IkFw
+cCI+CiAgICAgIDxoMT5UYXNrIE1hbmFnZW1lbnQ8L2gxPgogICAgICA8ZGl2
+IGNsYXNzTmFtZT0iaW5wdXQtYXJlYSI+CiAgICAgICAgPGlucHV0CiAgICAg
+ICAgICB0eXBlPSJ0ZXh0IgogICAgICAgICAgdmFsdWU9e25ld1Rhc2t9CiAg
+ICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldE5ld1Rhc2soZS50YXJnZXQu
+dmFsdWUpfQogICAgICAgICAgcGxhY2Vob2xkZXI9IkFkZCBhIG5ldyB0YXNr
+IgogICAgICAgIC8+CiAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXthZGRUYXNr
+fT5BZGQgVGFzazwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgICAgPHVsIGNs
+YXNzTmFtZT0idGFzay1saXN0Ij4KICAgICAgICB7dGFza3MubWFwKHRhc2sg
+PT4gKAogICAgICAgICAgPGxpIGtleT17dGFzay5pZH0gY2xhc3NOYW1lPXt0
+YXNrLmNvbXBsZXRlZCA/ICdjb21wbGV0ZWQnIDogJyd9PgogICAgICAgICAg
+ICB7ZWRpdGluZ1Rhc2sgPT09IHRhc2suaWQgPyAoCiAgICAgICAgICAgICAg
+PGRpdiBjbGFzc05hbWU9ImVkaXQtYXJlYSI+CiAgICAgICAgICAgICAgICA8
+aW5wdXQKICAgICAgICAgICAgICAgICAgdHlwZT0idGV4dCIKICAgICAgICAg
+ICAgICAgICAgdmFsdWU9e2VkaXRlZFRleHR9CiAgICAgICAgICAgICAgICAg
+IG9uQ2hhbmdlPXsoZSkgPT4gc2V0RWRpdGVkVGV4dChlLnRhcmdldC52YWx1
+ZSl9CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPGJ1dHRv
+biBvbkNsaWNrPXsoKSA9PiB1cGRhdGVUYXNrKHRhc2suaWQpfT5TYXZlPC9i
+dXR0b24+CiAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e2NhbmNl
+bEVkaXRpbmd9PkNhbmNlbDwvYnV0dG9uPgogICAgICAgICAgICAgIDwvZGl2
+PgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgIDxkaXYgY2xhc3NO
+YW1lPSJ0YXNrLWNvbnRlbnQiPgogICAgICAgICAgICAgICAgPHNwYW4+e3Rh
+c2sudGV4dH08L3NwYW4+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFt
+ZT0idGFzay1hY3Rpb25zIj4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBv
+bkNsaWNrPXsoKSA9PiBjb21wbGV0ZVRhc2sodGFzay5pZCl9Pnt0YXNrLmNv
+bXBsZXRlZCA/ICdVbmRvJyA6ICdDb21wbGV0ZSd9PC9idXR0b24+CiAgICAg
+ICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gc3RhcnRFZGl0
+aW5nKHRhc2spfT5FZGl0PC9idXR0b24+CiAgICAgICAgICAgICAgICAgIDxi
+dXR0b24gb25DbGljaz17KCkgPT4gZGVsZXRlVGFzayh0YXNrLmlkKX0+RGVs
+ZXRlPC9idXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAg
+ICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvbGk+CiAg
+ICAgICAgKSl9CiAgICAgIDwvdWw+CiAgICA8L2Rpdj4KICApOwp9CgpleHBv
+cnQgZGVmYXVsdCBBcHA7Cg==
