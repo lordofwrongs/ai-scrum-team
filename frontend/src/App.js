@@ -1,95 +1,56 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
-
-function App() {
-  const [tasks, setTasks] = useState([]);
-  const [newTask, setNewTask] = useState('');
-
-  useEffect(() => {
-    fetchTasks();
-  }, []);
-
-  const fetchTasks = async () => {
-    try {
-      const response = await fetch('/api/tasks');
-      const data = await response.json();
-      setTasks(data);
-    } catch (error) {
-      console.error('Error fetching tasks:', error);
-    }
-  };
-
-  const addTask = async () => {
-    if (newTask.trim()) {
-      try {
-        const response = await fetch('/api/tasks', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({ title: newTask })
-        });
-        const addedTask = await response.json();
-        setTasks([...tasks, addedTask]);
-        setNewTask('');
-      } catch (error) {
-        console.error('Error adding task:', error);
-      }
-    }
-  };
-
-  const toggleComplete = async (id, completed) => {
-    try {
-      const response = await fetch(`/api/tasks/${id}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ completed: !completed })
-      });
-      const updatedTask = await response.json();
-      setTasks(tasks.map(task => (task.id === id ? updatedTask : task)));
-    } catch (error) {
-      console.error('Error updating task:', error);
-    }
-  };
-
-  const deleteTask = async (id) => {
-    try {
-      await fetch(`/api/tasks/${id}`, {
-        method: 'DELETE'
-      });
-      setTasks(tasks.filter(task => task.id !== id));
-    } catch (error) {
-      console.error('Error deleting task:', error);
-    }
-  };
-
-  return (
-    <div className="App">
-      <h1>Task Management</h1>
-      <div className="input-container">
-        <input
-          type="text"
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          placeholder="Add a new task"
-        />
-        <button onClick={addTask}>Add Task</button>
-      </div>
-      <ul>
-        {tasks.map(task => (
-          <li key={task.id} className={task.completed ? 'completed' : ''}>
-            {task.title}
-            <button onClick={() => toggleComplete(task.id, task.completed)}>
-              {task.completed ? 'Undo' : 'Complete'}
-            </button>
-            <button onClick={() => deleteTask(task.id)}>Delete</button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-
-export default App;
+aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlLCB1c2VFZmZlY3QgfSBmcm9tICdy
+ZWFjdCc7CmltcG9ydCAnLi9BcHAuY3NzJzsKCmZ1bmN0aW9uIEFwcCgpIHsK
+ICBjb25zdCBbdGFza3MsIHNldFRhc2tzXSA9IHVzZVN0YXRlKFtdKTsKICBj
+b25zdCBbbmV3VGFzaywgc2V0TmV3VGFza10gPSB1c2VTdGF0ZSgnJyk7Cgog
+IHVzZUVmZmVjdCgoKSA9PiB7CiAgICBmZXRjaFRhc2tzKCk7CiAgfSwgW10p
+OwoKICBjb25zdCBmZXRjaFRhc2tzID0gYXN5bmMgKCkgPT4gewogICAgdHJ5
+IHsKICAgICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaCgnL2FwaS90
+YXNrcycpOwogICAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzcG9uc2UuanNv
+bigpOwogICAgICBzZXRUYXNrcyhkYXRhKTsKICAgIH0gY2F0Y2ggKGVycm9y
+KSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGZldGNoaW5nIHRhc2tz
+OicsIGVycm9yKTsKICAgIH0KICB9OwoKICBjb25zdCBhZGRUYXNrID0gYXN5
+bmMgKCkgPT4gewogICAgaWYgKG5ld1Rhc2sudHJpbSgpKSB7CiAgICAgIHRy
+eSB7CiAgICAgICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaCgnL2Fw
+aS90YXNrcycsIHsKICAgICAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICAg
+ICAgaGVhZGVyczogewogICAgICAgICAgICAnQ29udGVudC1UeXBlJzogJ2Fw
+cGxpY2F0aW9uL2pzb24nCiAgICAgICAgICB9LAogICAgICAgICAgYm9keTog
+SlNPTi5zdHJpbmdpZnkoeyB0aXRsZTogbmV3VGFzayB9KQogICAgICAgIH0p
+OwogICAgICAgIGNvbnN0IGFkZGVkVGFzayA9IGF3YWl0IHJlc3BvbnNlLmpz
+b24oKTsKICAgICAgICBzZXRUYXNrcyhbLi4udGFza3MsIGFkZGVkVGFza10p
+OwogICAgICAgIHNldE5ld1Rhc2soJycpOwogICAgICB9IGNhdGNoIChlcnJv
+cikgewogICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGFkZGluZyB0YXNr
+OicsIGVycm9yKTsKICAgICAgfQogICAgfQogIH07CgogIGNvbnN0IHRvZ2ds
+ZUNvbXBsZXRlID0gYXN5bmMgKGlkLCBjb21wbGV0ZWQpID0+IHsKICAgIHRy
+eSB7CiAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2goYC9hcGkv
+dGFza3MvJHtpZH1gLCB7CiAgICAgICAgbWV0aG9kOiAnUFVUJywKICAgICAg
+ICBoZWFkZXJzOiB7CiAgICAgICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxp
+Y2F0aW9uL2pzb24nCiAgICAgICAgfSwKICAgICAgICBib2R5OiBKU09OLnN0
+cmluZ2lmeSh7IGNvbXBsZXRlZDogIWNvbXBsZXRlZCB9KQogICAgICB9KTsK
+ICAgICAgY29uc3QgdXBkYXRlZFRhc2sgPSBhd2FpdCByZXNwb25zZS5qc29u
+KCk7CiAgICAgIHNldFRhc2tzKHRhc2tzLm1hcCh0YXNrID0+ICh0YXNrLmlk
+ID09PSBpZCA/IHVwZGF0ZWRUYXNrIDogdGFzaykpKTsKICAgIH0gY2F0Y2gg
+KGVycm9yKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIHVwZGF0aW5n
+IHRhc2s6JywgZXJyb3IpOwogICAgfQogIH07CgogIGNvbnN0IGRlbGV0ZVRh
+c2sgPSBhc3luYyAoaWQpID0+IHsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGZl
+dGNoKGAvYXBpL3Rhc2tzLyR7aWR9YCwgewogICAgICAgIG1ldGhvZDogJ0RF
+TEVURScKICAgICAgfSk7CiAgICAgIHNldFRhc2tzKHRhc2tzLmZpbHRlcih0
+YXNrID0+IHRhc2suaWQgIT09IGlkKSk7CiAgICB9IGNhdGNoIChlcnJvcikg
+ewogICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBkZWxldGluZyB0YXNrOics
+IGVycm9yKTsKICAgIH0KICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFz
+c05hbWU9IkFwcCI+CiAgICAgIDxoMT5UYXNrIE1hbmFnZW1lbnQ8L2gxPgog
+ICAgICA8ZGl2IGNsYXNzTmFtZT0iaW5wdXQtY29udGFpbmVyIj4KICAgICAg
+ICA8aW5wdXQKICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICB2YWx1
+ZT17bmV3VGFza30KICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0TmV3
+VGFzayhlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICBwbGFjZWhvbGRlcj0i
+QWRkIGEgbmV3IHRhc2siCiAgICAgICAgLz4KICAgICAgICA8YnV0dG9uIG9u
+Q2xpY2s9e2FkZFRhc2t9PkFkZCBUYXNrPC9idXR0b24+CiAgICAgIDwvZGl2
+PgogICAgICA8dWw+CiAgICAgICAge3Rhc2tzLm1hcCh0YXNrID0+ICgKICAg
+ICAgICAgIDxsaSBrZXk9e3Rhc2suaWR9IGNsYXNzTmFtZT17dGFzay5jb21w
+bGV0ZWQgPyAnY29tcGxldGVkJyA6ICcnfT4KICAgICAgICAgICAge3Rhc2su
+dGl0bGV9CiAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gdG9n
+Z2xlQ29tcGxldGUodGFzay5pZCwgdGFzay5jb21wbGV0ZWQpfT4KICAgICAg
+ICAgICAgICB7dGFzay5jb21wbGV0ZWQgPyAnVW5kbycgOiAnQ29tcGxldGUn
+fQogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPGJ1dHRvbiBv
+bkNsaWNrPXsoKSA9PiBkZWxldGVUYXNrKHRhc2suaWQpfT5EZWxldGU8L2J1
+dHRvbj4KICAgICAgICAgIDwvbGk+CiAgICAgICAgKSl9CiAgICAgIDwvdWw+
+CiAgICA8L2Rpdj4KICApOwp9CgpleHBvcnQgZGVmYXVsdCBBcHA7Cg==
