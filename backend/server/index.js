@@ -12,19 +12,18 @@ app.get('/api/tasks', (req, res) => {
 });
 
 app.post('/api/tasks', (req, res) => {
-  console.log('Received task:', req.body);
-  res.status(201).json({ message: 'Task created', ...req.body });
+  const newTask = { ...req.body, id: Date.now() };
+  res.status(201).json(newTask);
 });
 
-// Serve static files from the React frontend app
+// Serve the frontend build
 app.use(express.static(path.join(__dirname, '..', 'frontend', 'build')));
 
-// For any other route, serve the index.html file from the React build
-// This ensures that all client-side routes are handled by React Router
+// Handle all other routes by serving the index.html from the frontend build
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '..', 'frontend', 'build', 'index.html'));
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
