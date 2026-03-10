@@ -1,96 +1,56 @@
-const express = require('express');
-const cors = require('cors');
-const path = require('path');
-
-const app = express();
-const PORT = process.env.PORT || 5000;
-
-// Middleware
-app.use(cors());
-app.use(express.json());
-
-// In-memory database (replace with actual database)
-let tasks = [
-  { id: 1, text: 'Learn React', completed: false },
-  { id: 2, text: 'Build Backend API', completed: false },
-  { id: 3, text: 'Deploy to Render', completed: false },
-];
-let nextId = 4;
-
-// API Routes
-
-// GET all tasks
-app.get('/api/tasks', (req, res) => {
-  res.json(tasks);
-});
-
-// POST create a new task
-app.post('/api/tasks', (req, res) => {
-  const { text } = req.body;
-  if (!text) {
-    return res.status(400).json({ message: 'Task text is required' });
-  }
-  const newTask = {
-    id: nextId++,
-    text,
-    completed: false,
-  };
-  tasks.push(newTask);
-  res.status(201).json(newTask);
-});
-
-// PUT update a task (text)
-app.put('/api/tasks/:id', (req, res) => {
-  const taskId = parseInt(req.params.id);
-  const { text } = req.body;
-  const taskIndex = tasks.findIndex(task => task.id === taskId);
-
-  if (taskIndex === -1) {
-    return res.status(404).json({ message: 'Task not found' });
-  }
-  if (!text) {
-    return res.status(400).json({ message: 'Task text is required' });
-  }
-
-  tasks[taskIndex].text = text;
-  res.json(tasks[taskIndex]);
-});
-
-// PUT mark a task as complete/incomplete
-app.put('/api/tasks/:id/complete', (req, res) => {
-  const taskId = parseInt(req.params.id);
-  const taskIndex = tasks.findIndex(task => task.id === taskId);
-
-  if (taskIndex === -1) {
-    return res.status(404).json({ message: 'Task not found' });
-  }
-
-  tasks[taskIndex].completed = !tasks[taskIndex].completed;
-  res.json(tasks[taskIndex]);
-});
-
-// DELETE a task
-app.delete('/api/tasks/:id', (req, res) => {
-  const taskId = parseInt(req.params.id);
-  const initialLength = tasks.length;
-  tasks = tasks.filter(task => task.id !== taskId);
-
-  if (tasks.length === initialLength) {
-    return res.status(404).json({ message: 'Task not found' });
-  }
-
-  res.status(204).send(); // No content
-});
-
-// Serve static files from the React frontend build
-app.use(express.static(path.join(__dirname, '..', '..', 'frontend', 'build')));
-
-// For any other request, serve the index.html file (React Router)
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '..', '..', 'frontend', 'build', 'index.html'));
-});
-
-// Start the server
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+Y29uc3QgZXhwcmVzcyA9IHJlcXVpcmUoJ2V4cHJlc3MnKTsKY29uc3QgY29y
+cyA9IHJlcXVpcmUoJ2NvcnMnKTsKY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3Bh
+dGgnKTsKCmNvbnN0IGFwcCA9IGV4cHJlc3MoKTsKY29uc3QgUE9SVCA9IHBy
+b2Nlc3MuZW52LlBPUlQgfHwgNTAwMDsKCi8vIE1pZGRsZXdhcmUKYXBwLnVz
+ZShjb3JzKCkpOwphcHAudXNlKGV4cHJlc3MuanNvbigpKTsKCi8vIEluLW1l
+bW9yeSBkYXRhYmFzZSAocmVwbGFjZSB3aXRoIGFjdHVhbCBkYXRhYmFzZSkK
+bGV0IHRhc2tzID0gWwogIHsgaWQ6IDEsIHRleHQ6ICdMZWFybiBSZWFjdCcs
+IGNvbXBsZXRlZDogZmFsc2UgfSwKICB7IGlkOiAyLCB0ZXh0OiAnQnVpbGQg
+QmFja2VuZCBBUEknLCBjb21wbGV0ZWQ6IGZhbHNlIH0sCiAgeyBpZDogMywg
+dGV4dDogJ0RlcGxveSB0byBSZW5kZXInLCBjb21wbGV0ZWQ6IGZhbHNlIH0s
+Cl07CmxldCBuZXh0SWQgPSA0OwoKLy8gQVBJIFJvdXRlcwoKLy8gR0VUIGFs
+bCB0YXNrcwphcHAuZ2V0KCcvYXBpL3Rhc2tzJywgKHJlcSwgcmVzKSA9PiB7
+CiAgcmVzLmpzb24odGFza3MpOwp9KTsKCi8vIFBPU1QgY3JlYXRlIGEgbmV3
+IHRhc2sKYXBwLnBvc3QoJy9hcGkvdGFza3MnLCAocmVxLCByZXMpID0+IHsK
+ICBjb25zdCB7IHRleHQgfSA9IHJlcS5ib2R5OwogIGlmICghdGV4dCkgewog
+ICAgcmV0dXJuIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgbWVzc2FnZTogJ1Rh
+c2sgdGV4dCBpcyByZXF1aXJlZCcgfSk7CiAgfQogIGNvbnN0IG5ld1Rhc2sg
+PSB7CiAgICBpZDogbmV4dElkKyssCiAgICB0ZXh0LAogICAgY29tcGxldGVk
+OiBmYWxzZSwKICB9OwogIHRhc2tzLnB1c2gobmV3VGFzayk7CiAgcmVzLnN0
+YXR1cygyMDEpLmpzb24obmV3VGFzayk7Cn0pOwoKLy8gUFVUIHVwZGF0ZSBh
+IHRhc2sgKHRleHQpCmFwcC5wdXQoJy9hcGkvdGFza3MvOmlkJywgKHJlcSwg
+cmVzKSA9PiB7CiAgY29uc3QgdGFza0lkID0gcGFyc2VJbnQocmVxLnBhcmFt
+cy5pZCk7CiAgY29uc3QgeyB0ZXh0IH0gPSByZXEuYm9keTsKICBjb25zdCB0
+YXNrSW5kZXggPSB0YXNrcy5maW5kSW5kZXgodGFzayA9PiB0YXNrLmlkID09
+PSB0YXNrSWQpOwoKICBpZiAodGFza0luZGV4ID09PSAtMSkgewogICAgcmV0
+dXJuIHJlcy5zdGF0dXMoNDA0KS5qc29uKHsgbWVzc2FnZTogJ1Rhc2sgbm90
+IGZvdW5kJyB9KTsKICB9CiAgaWYgKCF0ZXh0KSB7CiAgICByZXR1cm4gcmVz
+LnN0YXR1cyg0MDApLmpzb24oeyBtZXNzYWdlOiAnVGFzayB0ZXh0IGlzIHJl
+cXVpcmVkJyB9KTsKICB9CgogIHRhc2tzW3Rhc2tJbmRleF0udGV4dCA9IHRl
+eHQ7CiAgcmVzLmpzb24odGFza3NbdGFza0luZGV4XSk7Cn0pOwoKLy8gUFVU
+IG1hcmsgYSB0YXNrIGFzIGNvbXBsZXRlL2luY29tcGxldGUKYXBwLnB1dCgn
+L2FwaS90YXNrcy86aWQvY29tcGxldGUnLCAocmVxLCByZXMpID0+IHsKICBj
+b25zdCB0YXNrSWQgPSBwYXJzZUludChyZXEucGFyYW1zLmlkKTsKICBjb25z
+dCB0YXNrSW5kZXggPSB0YXNrcy5maW5kSW5kZXgodGFzayA9PiB0YXNrLmlk
+ID09PSB0YXNrSWQpOwoKICBpZiAodGFza0luZGV4ID09PSAtMSkgewogICAg
+cmV0dXJuIHJlcy5zdGF0dXMoNDA0KS5qc29uKHsgbWVzc2FnZTogJ1Rhc2sg
+bm90IGZvdW5kJyB9KTsKICB9CgogIHRhc2tzW3Rhc2tJbmRleF0uY29tcGxl
+dGVkID0gIXRhc2tzW3Rhc2tJbmRleF0uY29tcGxldGVkOwogIHJlcy5qc29u
+KHRhc2tzW3Rhc2tJbmRleF0pOwp9KTsKCi8vIERFTEVURSBhIHRhc2sKYXBw
+LmRlbGV0ZSgnL2FwaS90YXNrcy86aWQnLCAocmVxLCByZXMpID0+IHsKICBj
+b25zdCB0YXNrSWQgPSBwYXJzZUludChyZXEucGFyYW1zLmlkKTsKICBjb25z
+dCBpbml0aWFsTGVuZ3RoID0gdGFza3MubGVuZ3RoOwogIHRhc2tzID0gdGFz
+a3MuZmlsdGVyKHRhc2sgPT4gdGFzay5pZCAhPT0gdGFza0lkKTsKCiAgaWYg
+KHRhc2tzLmxlbmd0aCA9PT0gaW5pdGlhbExlbmd0aCkgewogICAgcmV0dXJu
+IHJlcy5zdGF0dXMoNDA0KS5qc29uKHsgbWVzc2FnZTogJ1Rhc2sgbm90IGZv
+dW5kJyB9KTsKICB9CgogIHJlcy5zdGF0dXMoMjA0KS5zZW5kKCk7IC8vIE5v
+IGNvbnRlbnQKfSk7CgovLyBTZXJ2ZSBzdGF0aWMgZmlsZXMgZnJvbSB0aGUg
+UmVhY3QgZnJvbnRlbmQgYnVpbGQKYXBwLnVzZShleHByZXNzLnN0YXRpYyhw
+YXRoLmpvaW4oX19kaXJuYW1lLCAnLi4nLCAnLi4nLCAnZnJvbnRlbmQnLCAn
+YnVpbGQnKSkpOwoKLy8gRm9yIGFueSBvdGhlciByZXF1ZXN0LCBzZXJ2ZSB0
+aGUgaW5kZXguaHRtbCBmaWxlIChSZWFjdCBSb3V0ZXIpCmFwcC5nZXQoJyon
+LCAocmVxLCByZXMpID0+IHsKICByZXMuc2VuZEZpbGUocGF0aC5qb2luKF9f
+ZGlybmFtZSwgJy4uJywgJy4uJywgJ2Zyb250ZW5kJywgJ2J1aWxkJywgJ2lu
+ZGV4Lmh0bWwnKSk7Cn0pOwoKLy8gU3RhcnQgdGhlIHNlcnZlcgphcHAubGlz
+dGVuKFBPUlQsICgpID0+IHsKICBjb25zb2xlLmxvZyhgU2VydmVyIHJ1bm5p
+bmcgb24gcG9ydCAke1BPUlR9YCk7Cn0pOwo=
