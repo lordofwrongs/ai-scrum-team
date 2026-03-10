@@ -1,15 +1,25 @@
-ZXdvZ0lDSnphRzl5ZEY5dVlXMWxJam9nSWxSaGMyc2dRWEJ3SWl3S0lDQWli
-bUZ0WlNJNklDSlVZWE5yCklFMWhibUZuWlcxbGJuUWdRWEJ3YkdsallYUnBi
-MjRpTEFvZ0lDSnBZMjl1Y3lJNklGc0tJQ0FnSUhzSwpJQ0FnSUNBZ0luTnlZ
-eUk2SUNKbVlYWnBZMjl1TG1samJ5SXNDaUFnSUNBZ0lDSnphWHBsY3lJNklD
-STIKTkhnMk5DQXpNbmd6TWlBeU5IZ3lOQ0F4Tm5neE5pSXNDaUFnSUNBZ0lD
-SjBlWEJsSWpvZ0ltbHRZV2RsCkwzZ3RhV052YmlJS0lDQWdJSDBzQ2lBZ0lD
-QjdDaUFnSUNBZ0lDSnpjbU1pT2lBaWJHOW5iekU1TWk1dwpibWNpTEFvZ0lD
-QWdJQ0FpZEhsd1pTSTZJQ0pwYldGblpTOXdibWNpTEFvZ0lDQWdJQ0FpYzJs
-NlpYTWkKT2lBaU1Ua3llREU1TWlJS0lDQWdJSDBzQ2lBZ0lDQjdDaUFnSUNB
-Z0lDSnpjbU1pT2lBaWJHOW5ielV4Ck1pNXdibWNpTEFvZ0lDQWdJQ0FpZEhs
-d1pTSTZJQ0pwYldGblpTOXdibWNpTEFvZ0lDQWdJQ0FpYzJsNgpaWE1pT2lB
-aU5URXllRFV4TWlJS0lDQWdJSDBLSUNCZExBb2dJQ0p6ZEdGeWRGOTFjbXdp
-T2lBaUxpSXMKQ2lBZ0ltUnBjM0JzWVhraU9pQWljM1JoYm1SaGJHOXVaU0lz
-Q2lBZ0luUm9aVzFsWDJOdmJHOXlJam9nCklpTXdNREF3TURBaUxBb2dJQ0pp
-WVdOclozSnZkVzVrWDJOdmJHOXlJam9nSWlObVptWm1abVlpQ24wSwo=
+{
+  "short_name": "Task App",
+  "name": "Task Management Application",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
