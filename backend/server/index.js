@@ -1,76 +1,96 @@
-WTI5dWMzUWdaWGh3Y21WemN5QTlJSEpsY1hWcGNtVW9KMlY0Y0hKbGMzTW5L
-VHNLWTI5dWMzUWdZMjl5CmN5QTlJSEpsY1hWcGNtVW9KMk52Y25NbktUc0tZ
-Mjl1YzNRZ2NHRjBhQ0E5SUhKbGNYVnBjbVVvSjNCaApkR2duS1RzS0NtTnZi
-bk4wSUdGd2NDQTlJR1Y0Y0hKbGMzTW9LVHNLWTI5dWMzUWdVRTlTVkNBOUlI
-QnkKYjJObGMzTXVaVzUyTGxCUFVsUWdmSHdnTlRBd01Ec0tDaTh2SUUxcFpH
-UnNaWGRoY21VS1lYQndMblZ6ClpTaGpiM0p6S0NrcE93cGhjSEF1ZFhObEtH
-VjRjSEpsYzNNdWFuTnZiaWdwS1RzS0NpOHZJRWx1TFcxbApiVzl5ZVNCa1lY
-UmhZbUZ6WlNBb2NtVndiR0ZqWlNCM2FYUm9JR0ZqZEhWaGJDQmtZWFJoWW1G
-elpTa0sKYkdWMElIUmhjMnR6SUQwZ1d3b2dJSHNnYVdRNklERXNJSFJsZUhR
-NklDZE1aV0Z5YmlCU1pXRmpkQ2NzCklHTnZiWEJzWlhSbFpEb2dabUZzYzJV
-Z2ZTd0tJQ0I3SUdsa09pQXlMQ0IwWlhoME9pQW5RblZwYkdRZwpRbUZqYTJW
-dVpDQkJVRWtuTENCamIyMXdiR1YwWldRNklHWmhiSE5sSUgwc0NpQWdleUJw
-WkRvZ015d2cKZEdWNGREb2dKMFJsY0d4dmVTQjBieUJTWlc1a1pYSW5MQ0Jq
-YjIxd2JHVjBaV1E2SUdaaGJITmxJSDBzCkNsMDdDbXhsZENCdVpYaDBTV1Fn
-UFNBME93b0tMeThnUVZCSklGSnZkWFJsY3dvS0x5OGdSMFZVSUdGcwpiQ0Iw
-WVhOcmN3cGhjSEF1WjJWMEtDY3ZZWEJwTDNSaGMydHpKeXdnS0hKbGNTd2dj
-bVZ6S1NBOVBpQjcKQ2lBZ2NtVnpMbXB6YjI0b2RHRnphM01wT3dwOUtUc0tD
-aTh2SUZCUFUxUWdZM0psWVhSbElHRWdibVYzCklIUmhjMnNLWVhCd0xuQnZj
-M1FvSnk5aGNHa3ZkR0Z6YTNNbkxDQW9jbVZ4TENCeVpYTXBJRDArSUhzSwpJ
-Q0JqYjI1emRDQjdJSFJsZUhRZ2ZTQTlJSEpsY1M1aWIyUjVPd29nSUdsbUlD
-Z2hkR1Y0ZENrZ2V3b2cKSUNBZ2NtVjBkWEp1SUhKbGN5NXpkR0YwZFhNb05E
-QXdLUzVxYzI5dUtIc2diV1Z6YzJGblpUb2dKMVJoCmMyc2dkR1Y0ZENCcGN5
-QnlaWEYxYVhKbFpDY2dmU2s3Q2lBZ2ZRb2dJR052Ym5OMElHNWxkMVJoYzJz
-ZwpQU0I3Q2lBZ0lDQnBaRG9nYm1WNGRFbGtLeXNzQ2lBZ0lDQjBaWGgwTEFv
-Z0lDQWdZMjl0Y0d4bGRHVmsKT2lCbVlXeHpaU3dLSUNCOU93b2dJSFJoYzJ0
-ekxuQjFjMmdvYm1WM1ZHRnpheWs3Q2lBZ2NtVnpMbk4wCllYUjFjeWd5TURF
-cExtcHpiMjRvYm1WM1ZHRnpheWs3Q24wcE93b0tMeThnVUZWVUlIVndaR0Yw
-WlNCaApJSFJoYzJzZ0tIUmxlSFFwQ21Gd2NDNXdkWFFvSnk5aGNHa3ZkR0Z6
-YTNNdk9tbGtKeXdnS0hKbGNTd2cKY21WektTQTlQaUI3Q2lBZ1kyOXVjM1Fn
-ZEdGemEwbGtJRDBnY0dGeWMyVkpiblFvY21WeExuQmhjbUZ0CmN5NXBaQ2s3
-Q2lBZ1kyOXVjM1FnZXlCMFpYaDBJSDBnUFNCeVpYRXVZbTlrZVRzS0lDQmpi
-MjV6ZENCMApZWE5yU1c1a1pYZ2dQU0IwWVhOcmN5NW1hVzVrU1c1a1pYZ29k
-R0Z6YXlBOVBpQjBZWE5yTG1sa0lEMDkKUFNCMFlYTnJTV1FwT3dvS0lDQnBa
-aUFvZEdGemEwbHVaR1Y0SUQwOVBTQXRNU2tnZXdvZ0lDQWdjbVYwCmRYSnVJ
-SEpsY3k1emRHRjBkWE1vTkRBMEtTNXFjMjl1S0hzZ2JXVnpjMkZuWlRvZ0ox
-UmhjMnNnYm05MApJR1p2ZFc1a0p5QjlLVHNLSUNCOUNpQWdhV1lnS0NGMFpY
-aDBLU0I3Q2lBZ0lDQnlaWFIxY200Z2NtVnoKTG5OMFlYUjFjeWcwTURBcExt
-cHpiMjRvZXlCdFpYTnpZV2RsT2lBblZHRnpheUIwWlhoMElHbHpJSEpsCmNY
-VnBjbVZrSnlCOUtUc0tJQ0I5Q2dvZ0lIUmhjMnR6VzNSaGMydEpibVJsZUYw
-dWRHVjRkQ0E5SUhSbAplSFE3Q2lBZ2NtVnpMbXB6YjI0b2RHRnphM05iZEdG
-emEwbHVaR1Y0WFNrN0NuMHBPd29LTHk4Z1VGVlUKSUcxaGNtc2dZU0IwWVhO
-cklHRnpJR052YlhCc1pYUmxMMmx1WTI5dGNHeGxkR1VLWVhCd0xuQjFkQ2du
-CkwyRndhUzkwWVhOcmN5ODZhV1F2WTI5dGNHeGxkR1VuTENBb2NtVnhMQ0J5
-WlhNcElEMCtJSHNLSUNCagpiMjV6ZENCMFlYTnJTV1FnUFNCd1lYSnpaVWx1
-ZENoeVpYRXVjR0Z5WVcxekxtbGtLVHNLSUNCamIyNXoKZENCMFlYTnJTVzVr
-WlhnZ1BTQjBZWE5yY3k1bWFXNWtTVzVrWlhnb2RHRnpheUE5UGlCMFlYTnJM
-bWxrCklEMDlQU0IwWVhOclNXUXBPd29LSUNCcFppQW9kR0Z6YTBsdVpHVjRJ
-RDA5UFNBdE1Ta2dld29nSUNBZwpjbVYwZFhKdUlISmxjeTV6ZEdGMGRYTW9O
-REEwS1M1cWMyOXVLSHNnYldWemMyRm5aVG9nSjFSaGMyc2cKYm05MElHWnZk
-VzVrSnlCOUtUc0tJQ0I5Q2dvZ0lIUmhjMnR6VzNSaGMydEpibVJsZUYwdVky
-OXRjR3hsCmRHVmtJRDBnSVhSaGMydHpXM1JoYzJ0SmJtUmxlRjB1WTI5dGNH
-eGxkR1ZrT3dvZ0lISmxjeTVxYzI5dQpLSFJoYzJ0elczUmhjMnRKYm1SbGVG
-MHBPd3A5S1RzS0NpOHZJRVJGVEVWVVJTQmhJSFJoYzJzS1lYQncKTG1SbGJH
-VjBaU2duTDJGd2FTOTBZWE5yY3k4NmFXUW5MQ0FvY21WeExDQnlaWE1wSUQw
-K0lIc0tJQ0JqCmIyNXpkQ0IwWVhOclNXUWdQU0J3WVhKelpVbHVkQ2h5WlhF
-dWNHRnlZVzF6TG1sa0tUc0tJQ0JqYjI1egpkQ0JwYm1sMGFXRnNUR1Z1WjNS
-b0lEMGdkR0Z6YTNNdWJHVnVaM1JvT3dvZ0lIUmhjMnR6SUQwZ2RHRnoKYTNN
-dVptbHNkR1Z5S0hSaGMyc2dQVDRnZEdGemF5NXBaQ0FoUFQwZ2RHRnphMGxr
-S1RzS0NpQWdhV1lnCktIUmhjMnR6TG14bGJtZDBhQ0E5UFQwZ2FXNXBkR2xo
-YkV4bGJtZDBhQ2tnZXdvZ0lDQWdjbVYwZFhKdQpJSEpsY3k1emRHRjBkWE1v
-TkRBMEtTNXFjMjl1S0hzZ2JXVnpjMkZuWlRvZ0oxUmhjMnNnYm05MElHWnYK
-ZFc1a0p5QjlLVHNLSUNCOUNnb2dJSEpsY3k1emRHRjBkWE1vTWpBMEtTNXpa
-VzVrS0NrN0lDOHZJRTV2CklHTnZiblJsYm5RS2ZTazdDZ292THlCVFpYSjJa
-U0J6ZEdGMGFXTWdabWxzWlhNZ1puSnZiU0IwYUdVZwpVbVZoWTNRZ1puSnZi
-blJsYm1RZ1luVnBiR1FLWVhCd0xuVnpaU2hsZUhCeVpYTnpMbk4wWVhScFl5
-aHcKWVhSb0xtcHZhVzRvWDE5a2FYSnVZVzFsTENBbkxpNG5MQ0FuTGk0bkxD
-QW5abkp2Ym5SbGJtUW5MQ0FuClluVnBiR1FuS1NrcE93b0tMeThnUm05eUlH
-RnVlU0J2ZEdobGNpQnlaWEYxWlhOMExDQnpaWEoyWlNCMAphR1VnYVc1a1pY
-Z3VhSFJ0YkNCbWFXeGxJQ2hTWldGamRDQlNiM1YwWlhJcENtRndjQzVuWlhR
-b0p5b24KTENBb2NtVnhMQ0J5WlhNcElEMCtJSHNLSUNCeVpYTXVjMlZ1WkVa
-cGJHVW9jR0YwYUM1cWIybHVLRjlmClpHbHlibUZ0WlN3Z0p5NHVKeXdnSnk0
-dUp5d2dKMlp5YjI1MFpXNWtKeXdnSjJKMWFXeGtKeXdnSjJsdQpaR1Y0TG1o
-MGJXd25LU2s3Q24wcE93b0tMeThnVTNSaGNuUWdkR2hsSUhObGNuWmxjZ3Bo
-Y0hBdWJHbHoKZEdWdUtGQlBVbFFzSUNncElEMCtJSHNLSUNCamIyNXpiMnhs
-TG14dlp5aGdVMlZ5ZG1WeUlISjFibTVwCmJtY2diMjRnY0c5eWRDQWtlMUJQ
-VWxSOVlDazdDbjBwT3dvPQo=
+const express = require('express');
+const cors = require('cors');
+const path = require('path');
+
+const app = express();
+const PORT = process.env.PORT || 5000;
+
+// Middleware
+app.use(cors());
+app.use(express.json());
+
+// In-memory database (replace with actual database)
+let tasks = [
+  { id: 1, text: 'Learn React', completed: false },
+  { id: 2, text: 'Build Backend API', completed: false },
+  { id: 3, text: 'Deploy to Render', completed: false },
+];
+let nextId = 4;
+
+// API Routes
+
+// GET all tasks
+app.get('/api/tasks', (req, res) => {
+  res.json(tasks);
+});
+
+// POST create a new task
+app.post('/api/tasks', (req, res) => {
+  const { text } = req.body;
+  if (!text) {
+    return res.status(400).json({ message: 'Task text is required' });
+  }
+  const newTask = {
+    id: nextId++,
+    text,
+    completed: false,
+  };
+  tasks.push(newTask);
+  res.status(201).json(newTask);
+});
+
+// PUT update a task (text)
+app.put('/api/tasks/:id', (req, res) => {
+  const taskId = parseInt(req.params.id);
+  const { text } = req.body;
+  const taskIndex = tasks.findIndex(task => task.id === taskId);
+
+  if (taskIndex === -1) {
+    return res.status(404).json({ message: 'Task not found' });
+  }
+  if (!text) {
+    return res.status(400).json({ message: 'Task text is required' });
+  }
+
+  tasks[taskIndex].text = text;
+  res.json(tasks[taskIndex]);
+});
+
+// PUT mark a task as complete/incomplete
+app.put('/api/tasks/:id/complete', (req, res) => {
+  const taskId = parseInt(req.params.id);
+  const taskIndex = tasks.findIndex(task => task.id === taskId);
+
+  if (taskIndex === -1) {
+    return res.status(404).json({ message: 'Task not found' });
+  }
+
+  tasks[taskIndex].completed = !tasks[taskIndex].completed;
+  res.json(tasks[taskIndex]);
+});
+
+// DELETE a task
+app.delete('/api/tasks/:id', (req, res) => {
+  const taskId = parseInt(req.params.id);
+  const initialLength = tasks.length;
+  tasks = tasks.filter(task => task.id !== taskId);
+
+  if (tasks.length === initialLength) {
+    return res.status(404).json({ message: 'Task not found' });
+  }
+
+  res.status(204).send(); // No content
+});
+
+// Serve static files from the React frontend build
+app.use(express.static(path.join(__dirname, '..', '..', 'frontend', 'build')));
+
+// For any other request, serve the index.html file (React Router)
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'frontend', 'build', 'index.html'));
+});
+
+// Start the server
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
