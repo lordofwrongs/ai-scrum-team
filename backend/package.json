@@ -1,13 +1,20 @@
-ZXdvZ0lDSnVZVzFsSWpvZ0luUmhjMnN0YldGdVlXZGxiV1Z1ZEMxaVlXTnJa
-VzVrSWl3S0lDQWlkbVZ5CmMybHZiaUk2SUNJeExqQXVNQ0lzQ2lBZ0ltUmxj
-Mk55YVhCMGFXOXVJam9nSWxSaGMyc2dUV0Z1WVdkbApiV1Z1ZENCQ1lXTnJa
-VzVrSUVGUVNTSXNDaUFnSW0xaGFXNGlPaUFpYzJWeWRtVnlMMmx1WkdWNExt
-cHoKSWl3S0lDQWljMk55YVhCMGN5STZJSHNLSUNBZ0lDSnpkR0Z5ZENJNklD
-SnViMlJsSUhObGNuWmxjaTlwCmJtUmxlQzVxY3lJc0NpQWdJQ0FpWkdWMklq
-b2dJbTV2WkdWdGIyNGdjMlZ5ZG1WeUwybHVaR1Y0TG1wegpJZ29nSUgwc0Np
-QWdJbXRsZVhkdmNtUnpJam9nVzEwc0NpQWdJbUYxZEdodmNpSTZJQ0lpTEFv
-Z0lDSnMKYVdObGJuTmxJam9nSWtsVFF5SXNDaUFnSW1SbGNHVnVaR1Z1WTJs
-bGN5STZJSHNLSUNBZ0lDSmpiM0p6Cklqb2dJbDR5TGpndU5TSXNDaUFnSUNB
-aVpYaHdjbVZ6Y3lJNklDSmVOQzR4T0M0eUlnb2dJSDBzQ2lBZwpJbVJsZGtS
-bGNHVnVaR1Z1WTJsbGN5STZJSHNLSUNBZ0lDSnViMlJsYlc5dUlqb2dJbDR5
-TGpBdU1qQWkKQ2lBZ2ZRcDlDZz09Cg==
+{
+  "name": "task-management-backend",
+  "version": "1.0.0",
+  "description": "Task Management Backend API",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
