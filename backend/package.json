@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "task-management-backend",
   "version": "1.0.0",
-  "description": "Backend for the Task Manager App",
+  "description": "Backend API for Task Management",
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
@@ -11,10 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.2"
   }
 }
