@@ -1,35 +1,76 @@
-TGtGd2NDQjdDaUFnWm05dWRDMW1ZVzFwYkhrNklITmhibk10YzJWeWFXWTdD
-aUFnZEdWNGRDMWhiR2xuCmJqb2dZMlZ1ZEdWeU93b2dJSEJoWkdScGJtYzZJ
-REl3Y0hnN0NuMEtDaTVwYm5CMWRDMWpiMjUwWVdsdQpaWElnZXdvZ0lHMWhj
-bWRwYmkxaWIzUjBiMjA2SURJd2NIZzdDbjBLQ2k1cGJuQjFkQzFqYjI1MFlX
-bHUKWlhJZ2FXNXdkWFFnZXdvZ0lIQmhaR1JwYm1jNklERXdjSGc3Q2lBZ2JX
-RnlaMmx1TFhKcFoyaDBPaUF4Ck1IQjRPd29nSUdKdmNtUmxjam9nTVhCNElI
-TnZiR2xrSUNOalkyTTdDaUFnWW05eVpHVnlMWEpoWkdsMQpjem9nTkhCNE93
-cDlDZ291YVc1d2RYUXRZMjl1ZEdGcGJtVnlJR0oxZEhSdmJpQjdDaUFnY0dG
-a1pHbHUKWnpvZ01UQndlQ0F4TlhCNE93b2dJR0poWTJ0bmNtOTFibVF0WTI5
-c2IzSTZJQ013TURkaVptWTdDaUFnClkyOXNiM0k2SUhkb2FYUmxPd29nSUdK
-dmNtUmxjam9nYm05dVpUc0tJQ0JpYjNKa1pYSXRjbUZrYVhWegpPaUEwY0hn
-N0NpQWdZM1Z5YzI5eU9pQndiMmx1ZEdWeU93cDlDZ291YVc1d2RYUXRZMjl1
-ZEdGcGJtVnkKSUdKMWRIUnZianBvYjNabGNpQjdDaUFnWW1GamEyZHliM1Z1
-WkMxamIyeHZjam9nSXpBd05UWmlNenNLCmZRb0tkV3dnZXdvZ0lHeHBjM1F0
-YzNSNWJHVTZJRzV2Ym1VN0NpQWdjR0ZrWkdsdVp6b2dNRHNLZlFvSwpiR2tn
-ZXdvZ0lHSmhZMnRuY205MWJtUXRZMjlzYjNJNklDTm1PV1k1WmprN0NpQWdi
-V0Z5WjJsdUxXSnYKZEhSdmJUb2dNVEJ3ZURzS0lDQndZV1JrYVc1bk9pQXhN
-SEI0T3dvZ0lHSnZjbVJsY2pvZ01YQjRJSE52CmJHbGtJQ05sWldVN0NpQWdZ
-bTl5WkdWeUxYSmhaR2wxY3pvZ05IQjRPd29nSUdScGMzQnNZWGs2SUdacwpa
-WGc3Q2lBZ2FuVnpkR2xtZVMxamIyNTBaVzUwT2lCemNHRmpaUzFpWlhSM1pX
-VnVPd29nSUdGc2FXZHUKTFdsMFpXMXpPaUJqWlc1MFpYSTdDbjBLQ214cExt
-TnZiWEJzWlhSbFpDQjdDaUFnZEdWNGRDMWtaV052CmNtRjBhVzl1T2lCc2FX
-NWxMWFJvY205MVoyZzdDaUFnWTI5c2IzSTZJQ000T0RnN0NuMEtDbXhwSUdK
-MQpkSFJ2YmlCN0NpQWdiV0Z5WjJsdUxXeGxablE2SURFd2NIZzdDaUFnY0dG
-a1pHbHVaem9nTlhCNElERXcKY0hnN0NpQWdZM1Z5YzI5eU9pQndiMmx1ZEdW
-eU93b2dJR0p2Y21SbGNpMXlZV1JwZFhNNklEUndlRHNLCklDQmliM0prWlhJ
-NklHNXZibVU3Q24wS0NteHBJR0oxZEhSdmJqcG1hWEp6ZEMxdlppMTBlWEJs
-SUhzSwpJQ0JpWVdOclozSnZkVzVrTFdOdmJHOXlPaUFqTWpoaE56UTFPd29n
-SUdOdmJHOXlPaUIzYUdsMFpUc0sKZlFvS2JHa2dZblYwZEc5dU9tWnBjbk4w
-TFc5bUxYUjVjR1U2YUc5MlpYSWdld29nSUdKaFkydG5jbTkxCmJtUXRZMjlz
-YjNJNklDTXlNVGc0TXpnN0NuMEtDbXhwSUdKMWRIUnZianBzWVhOMExXOW1M
-WFI1Y0dVZwpld29nSUdKaFkydG5jbTkxYm1RdFkyOXNiM0k2SUNOa1l6TTFO
-RFU3Q2lBZ1kyOXNiM0k2SUhkb2FYUmwKT3dwOUNncHNhU0JpZFhSMGIyNDZi
-R0Z6ZEMxdlppMTBlWEJsT21odmRtVnlJSHNLSUNCaVlXTnJaM0p2CmRXNWtM
-V052Ykc5eU9pQWpZemd5TXpNek93cDlDZz09Cg==
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-container button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+
+li button:first-of-type {
+  background-color: #28a745;
+  color: white;
+}
+
+li button:first-of-type:hover {
+  background-color: #218838;
+}
+
+li button:last-of-type {
+  background-color: #dc3545;
+  color: white;
+}
+
+li button:last-of-type:hover {
+  background-color: #c82333;
+}
