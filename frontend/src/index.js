@@ -1,8 +1,11 @@
-YVcxd2IzSjBJRkpsWVdOMElHWnliMjBnSjNKbFlXTjBKenNLYVcxd2IzSjBJ
-RkpsWVdOMFJFOU5JR1p5CmIyMGdKM0psWVdOMExXUnZiUzlqYkdsbGJuUW5P
-d3BwYlhCdmNuUWdKeTR2YVc1a1pYZ3VZM056SnpzSwphVzF3YjNKMElFRndj
-Q0JtY205dElDY3VMMEZ3Y0NjN0NncGpiMjV6ZENCeWIyOTBJRDBnVW1WaFkz
-UkUKVDAwdVkzSmxZWFJsVW05dmRDaGtiMk4xYldWdWRDNW5aWFJGYkdWdFpX
-NTBRbmxKWkNnbmNtOXZkQ2NwCktUc0tjbTl2ZEM1eVpXNWtaWElvQ2lBZ1BG
-SmxZV04wTGxOMGNtbGpkRTF2WkdVK0NpQWdJQ0E4UVhCdwpJQzgrQ2lBZ1BD
-OVNaV0ZqZEM1VGRISnBZM1JOYjJSbFBnb3BPd289Cg==
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
