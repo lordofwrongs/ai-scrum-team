@@ -1,2 +1,5 @@
-Ym05a1pWOXRiMlIxYkdWekx3cGlkV2xzWkM4S0xtVnVkZ291UkZOZlUzUnZj
-bVVLS2k1c2IyY0sK
+node_modules/
+build/
+.env
+.DS_Store
+*.log
