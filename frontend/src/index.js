@@ -1,11 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IFJlYWN0RE9NIGZy
+b20gJ3JlYWN0LWRvbS9jbGllbnQnOwppbXBvcnQgJy4vaW5kZXguY3NzJzsK
+aW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7Cgpjb25zdCByb290ID0gUmVhY3RE
+T00uY3JlYXRlUm9vdChkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncm9vdCcp
+KTsKcm9vdC5yZW5kZXIoCiAgPFJlYWN0LlN0cmljdE1vZGU+CiAgICA8QXBw
+IC8+CiAgPC9SZWFjdC5TdHJpY3RNb2RlPgopOwo=
