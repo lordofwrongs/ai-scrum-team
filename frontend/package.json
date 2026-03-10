@@ -1,21 +1,34 @@
-ZXdvZ0lDSnVZVzFsSWpvZ0luUmhjMnN0YldGdVlXZGxiV1Z1ZEMxbWNtOXVk
-R1Z1WkNJc0NpQWdJblpsCmNuTnBiMjRpT2lBaU1DNHhMakFpTEFvZ0lDSndj
-bWwyWVhSbElqb2dkSEoxWlN3S0lDQWlaR1Z3Wlc1awpaVzVqYVdWeklqb2dl
-d29nSUNBZ0luSmxZV04wSWpvZ0lsNHhPQzR5TGpBaUxBb2dJQ0FnSW5KbFlX
-TjAKTFdSdmJTSTZJQ0plTVRndU1pNHdJaXdLSUNBZ0lDSnlaV0ZqZEMxelkz
-SnBjSFJ6SWpvZ0lqVXVNQzR4Cklnb2dJSDBzQ2lBZ0luTmpjbWx3ZEhNaU9p
-QjdDaUFnSUNBaWMzUmhjblFpT2lBaWNtVmhZM1F0YzJOeQphWEIwY3lCemRH
-RnlkQ0lzQ2lBZ0lDQWlZblZwYkdRaU9pQWljbVZoWTNRdGMyTnlhWEIwY3lC
-aWRXbHMKWkNJc0NpQWdJQ0FpZEdWemRDSTZJQ0p5WldGamRDMXpZM0pwY0hS
-eklIUmxjM1FpTEFvZ0lDQWdJbVZxClpXTjBJam9nSW5KbFlXTjBMWE5qY21s
-d2RITWdaV3BsWTNRaUNpQWdmU3dLSUNBaVpYTnNhVzUwUTI5dQpabWxuSWpv
-Z2V3b2dJQ0FnSW1WNGRHVnVaSE1pT2lCYkNpQWdJQ0FnSUNKeVpXRmpkQzFo
-Y0hBaUxBb2cKSUNBZ0lDQWljbVZoWTNRdFlYQndMMnBsYzNRaUNpQWdJQ0Jk
-Q2lBZ2ZTd0tJQ0FpWW5KdmQzTmxjbk5zCmFYTjBJam9nZXdvZ0lDQWdJbkJ5
-YjJSMVkzUnBiMjRpT2lCYkNpQWdJQ0FnSUNJK01DNHlKU0lzQ2lBZwpJQ0Fn
-SUNKdWIzUWdaR1ZoWkNJc0NpQWdJQ0FnSUNKdWIzUWdiM0JmYldsdWFTQmhi
-R3dpQ2lBZ0lDQmQKTEFvZ0lDQWdJbVJsZG1Wc2IzQnRaVzUwSWpvZ1d3b2dJ
-Q0FnSUNBaWJHRnpkQ0F4SUdOb2NtOXRaU0IyClpYSnphVzl1SWl3S0lDQWdJ
-Q0FnSW14aGMzUWdNU0JtYVhKbFptOTRJSFpsY25OcGIyNGlMQW9nSUNBZwpJ
-Q0FpYkdGemRDQXhJSE5oWm1GeWFTQjJaWEp6YVc5dUlnb2dJQ0FnWFFvZ0lI
-MEtmUW89Cg==
+{
+  "name": "task-management-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
