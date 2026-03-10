@@ -1,119 +1,138 @@
-YVcxd2IzSjBJRkpsWVdOMExDQjdJSFZ6WlZOMFlYUmxMQ0IxYzJWRlptWmxZ
-M1FnZlNCbWNtOXRJQ2R5ClpXRmpkQ2M3Q21sdGNHOXlkQ0FuTGk5QmNIQXVZ
-M056SnpzS0NtWjFibU4wYVc5dUlFRndjQ2dwSUhzSwpJQ0JqYjI1emRDQmJk
-R0Z6YTNNc0lITmxkRlJoYzJ0elhTQTlJSFZ6WlZOMFlYUmxLRnRkS1RzS0lD
-QmoKYjI1emRDQmJibVYzVkdGemF5d2djMlYwVG1WM1ZHRnphMTBnUFNCMWMy
-VlRkR0YwWlNnbkp5azdDaUFnClkyOXVjM1FnVzJWa2FYUnBibWRVWVhOckxD
-QnpaWFJGWkdsMGFXNW5WR0Z6YTEwZ1BTQjFjMlZUZEdGMApaU2h1ZFd4c0tU
-c0tJQ0JqYjI1emRDQmJaV1JwZEdWa1ZHVjRkQ3dnYzJWMFJXUnBkR1ZrVkdW
-NGRGMGcKUFNCMWMyVlRkR0YwWlNnbkp5azdDZ29nSUhWelpVVm1abVZqZENn
-b0tTQTlQaUI3Q2lBZ0lDQm1aWFJqCmFGUmhjMnR6S0NrN0NpQWdmU3dnVzEw
-cE93b0tJQ0JqYjI1emRDQm1aWFJqYUZSaGMydHpJRDBnWVhONQpibU1nS0Nr
-Z1BUNGdld29nSUNBZ2RISjVJSHNLSUNBZ0lDQWdZMjl1YzNRZ2NtVnpjRzl1
-YzJVZ1BTQmgKZDJGcGRDQm1aWFJqYUNnbkwyRndhUzkwWVhOcmN5Y3BPd29n
-SUNBZ0lDQmpiMjV6ZENCa1lYUmhJRDBnCllYZGhhWFFnY21WemNHOXVjMlV1
-YW5OdmJpZ3BPd29nSUNBZ0lDQnpaWFJVWVhOcmN5aGtZWFJoS1RzSwpJQ0Fn
-SUgwZ1kyRjBZMmdnS0dWeWNtOXlLU0I3Q2lBZ0lDQWdJR052Ym5OdmJHVXVa
-WEp5YjNJb0owVnkKY205eUlHWmxkR05vYVc1bklIUmhjMnR6T2ljc0lHVnlj
-bTl5S1RzS0lDQWdJSDBLSUNCOU93b0tJQ0JqCmIyNXpkQ0JoWkdSVVlYTnJJ
-RDBnWVhONWJtTWdLQ2tnUFQ0Z2V3b2dJQ0FnYVdZZ0tHNWxkMVJoYzJzdQpk
-SEpwYlNncEtTQjdDaUFnSUNBZ0lIUnllU0I3Q2lBZ0lDQWdJQ0FnWTI5dWMz
-UWdjbVZ6Y0c5dWMyVWcKUFNCaGQyRnBkQ0JtWlhSamFDZ25MMkZ3YVM5MFlY
-TnJjeWNzSUhzS0lDQWdJQ0FnSUNBZ0lHMWxkR2h2ClpEb2dKMUJQVTFRbkxB
-b2dJQ0FnSUNBZ0lDQWdhR1ZoWkdWeWN6b2dld29nSUNBZ0lDQWdJQ0FnSUNB
-bgpRMjl1ZEdWdWRDMVVlWEJsSnpvZ0oyRndjR3hwWTJGMGFXOXVMMnB6YjI0
-bkxBb2dJQ0FnSUNBZ0lDQWcKZlN3S0lDQWdJQ0FnSUNBZ0lHSnZaSGs2SUVw
-VFQwNHVjM1J5YVc1bmFXWjVLSHNnZEdWNGREb2dibVYzClZHRnpheUI5S1N3
-S0lDQWdJQ0FnSUNCOUtUc0tJQ0FnSUNBZ0lDQmpiMjV6ZENCaFpHUmxaRlJo
-YzJzZwpQU0JoZDJGcGRDQnlaWE53YjI1elpTNXFjMjl1S0NrN0NpQWdJQ0Fn
-SUNBZ2MyVjBWR0Z6YTNNb1d5NHUKTG5SaGMydHpMQ0JoWkdSbFpGUmhjMnRk
-S1RzS0lDQWdJQ0FnSUNCelpYUk9aWGRVWVhOcktDY25LVHNLCklDQWdJQ0Fn
-ZlNCallYUmphQ0FvWlhKeWIzSXBJSHNLSUNBZ0lDQWdJQ0JqYjI1emIyeGxM
-bVZ5Y205eQpLQ2RGY25KdmNpQmhaR1JwYm1jZ2RHRnphem9uTENCbGNuSnZj
-aWs3Q2lBZ0lDQWdJSDBLSUNBZ0lIMEsKSUNCOU93b0tJQ0JqYjI1emRDQmta
-V3hsZEdWVVlYTnJJRDBnWVhONWJtTWdLR2xrS1NBOVBpQjdDaUFnCklDQjBj
-bmtnZXdvZ0lDQWdJQ0JoZDJGcGRDQm1aWFJqYUNoZ0wyRndhUzkwWVhOcmN5
-OGtlMmxrZldBcwpJSHNLSUNBZ0lDQWdJQ0J0WlhSb2IyUTZJQ2RFUlV4RlZF
-VW5MQW9nSUNBZ0lDQjlLVHNLSUNBZ0lDQWcKYzJWMFZHRnphM01vZEdGemEz
-TXVabWxzZEdWeUtIUmhjMnNnUFQ0Z2RHRnpheTVwWkNBaFBUMGdhV1FwCktU
-c0tJQ0FnSUgwZ1kyRjBZMmdnS0dWeWNtOXlLU0I3Q2lBZ0lDQWdJR052Ym5O
-dmJHVXVaWEp5YjNJbwpKMFZ5Y205eUlHUmxiR1YwYVc1bklIUmhjMnM2Snl3
-Z1pYSnliM0lwT3dvZ0lDQWdmUW9nSUgwN0Nnb2cKSUdOdmJuTjBJR052YlhC
-c1pYUmxWR0Z6YXlBOUlHRnplVzVqSUNocFpDa2dQVDRnZXdvZ0lDQWdkSEo1
-CklIc0tJQ0FnSUNBZ1kyOXVjM1FnY21WemNHOXVjMlVnUFNCaGQyRnBkQ0Jt
-WlhSamFDaGdMMkZ3YVM5MApZWE5yY3k4a2UybGtmUzlqYjIxd2JHVjBaV0Fz
-SUhzS0lDQWdJQ0FnSUNCdFpYUm9iMlE2SUNkUVZWUW4KTEFvZ0lDQWdJQ0I5
-S1RzS0lDQWdJQ0FnWTI5dWMzUWdkWEJrWVhSbFpGUmhjMnNnUFNCaGQyRnBk
-Q0J5ClpYTndiMjV6WlM1cWMyOXVLQ2s3Q2lBZ0lDQWdJSE5sZEZSaGMydHpL
-SFJoYzJ0ekxtMWhjQ2gwWVhOcgpJRDArSUNoMFlYTnJMbWxrSUQwOVBTQnBa
-Q0EvSUhWd1pHRjBaV1JVWVhOcklEb2dkR0Z6YXlrcEtUc0sKSUNBZ0lIMGdZ
-MkYwWTJnZ0tHVnljbTl5S1NCN0NpQWdJQ0FnSUdOdmJuTnZiR1V1WlhKeWIz
-SW9KMFZ5CmNtOXlJR052YlhCc1pYUnBibWNnZEdGemF6b25MQ0JsY25KdmNp
-azdDaUFnSUNCOUNpQWdmVHNLQ2lBZwpZMjl1YzNRZ2MzUmhjblJGWkdsMGFX
-NW5JRDBnS0hSaGMyc3BJRDArSUhzS0lDQWdJSE5sZEVWa2FYUnAKYm1kVVlY
-TnJLSFJoYzJzdWFXUXBPd29nSUNBZ2MyVjBSV1JwZEdWa1ZHVjRkQ2gwWVhO
-ckxuUmxlSFFwCk93b2dJSDA3Q2dvZ0lHTnZibk4wSUdOaGJtTmxiRVZrYVhS
-cGJtY2dQU0FvS1NBOVBpQjdDaUFnSUNCegpaWFJGWkdsMGFXNW5WR0Z6YXlo
-dWRXeHNLVHNLSUNBZ0lITmxkRVZrYVhSbFpGUmxlSFFvSnljcE93b2cKSUgw
-N0Nnb2dJR052Ym5OMElIVndaR0YwWlZSaGMyc2dQU0JoYzNsdVl5QW9hV1Fw
-SUQwK0lIc0tJQ0FnCklHbG1JQ2hsWkdsMFpXUlVaWGgwTG5SeWFXMG9LU2tn
-ZXdvZ0lDQWdJQ0IwY25rZ2V3b2dJQ0FnSUNBZwpJR052Ym5OMElISmxjM0J2
-Ym5ObElEMGdZWGRoYVhRZ1ptVjBZMmdvWUM5aGNHa3ZkR0Z6YTNNdkpIdHAK
-WkgxZ0xDQjdDaUFnSUNBZ0lDQWdJQ0J0WlhSb2IyUTZJQ2RRVlZRbkxBb2dJ
-Q0FnSUNBZ0lDQWdhR1ZoClpHVnljem9nZXdvZ0lDQWdJQ0FnSUNBZ0lDQW5R
-Mjl1ZEdWdWRDMVVlWEJsSnpvZ0oyRndjR3hwWTJGMAphVzl1TDJwemIyNG5M
-QW9nSUNBZ0lDQWdJQ0FnZlN3S0lDQWdJQ0FnSUNBZ0lHSnZaSGs2SUVwVFQw
-NHUKYzNSeWFXNW5hV1o1S0hzZ2RHVjRkRG9nWldScGRHVmtWR1Y0ZENCOUtT
-d0tJQ0FnSUNBZ0lDQjlLVHNLCklDQWdJQ0FnSUNCamIyNXpkQ0IxY0dSaGRH
-VmtWR0Z6YXlBOUlHRjNZV2wwSUhKbGMzQnZibk5sTG1wegpiMjRvS1RzS0lD
-QWdJQ0FnSUNCelpYUlVZWE5yY3loMFlYTnJjeTV0WVhBb2RHRnpheUE5UGlB
-b2RHRnoKYXk1cFpDQTlQVDBnYVdRZ1B5QjFjR1JoZEdWa1ZHRnpheUE2SUhS
-aGMyc3BLU2s3Q2lBZ0lDQWdJQ0FnCmMyVjBSV1JwZEdsdVoxUmhjMnNvYm5W
-c2JDazdDaUFnSUNBZ0lDQWdjMlYwUldScGRHVmtWR1Y0ZENnbgpKeWs3Q2lB
-Z0lDQWdJSDBnWTJGMFkyZ2dLR1Z5Y205eUtTQjdDaUFnSUNBZ0lDQWdZMjl1
-YzI5c1pTNWwKY25KdmNpZ25SWEp5YjNJZ2RYQmtZWFJwYm1jZ2RHRnphem9u
-TENCbGNuSnZjaWs3Q2lBZ0lDQWdJSDBLCklDQWdJSDBLSUNCOU93b0tJQ0J5
-WlhSMWNtNGdLQW9nSUNBZ1BHUnBkaUJqYkdGemMwNWhiV1U5SWtGdwpjQ0kr
-Q2lBZ0lDQWdJRHhvTVQ1VVlYTnJJRTFoYm1GblpXMWxiblE4TDJneFBnb2dJ
-Q0FnSUNBOFpHbDIKSUdOc1lYTnpUbUZ0WlQwaWFXNXdkWFF0WVhKbFlTSStD
-aUFnSUNBZ0lDQWdQR2x1Y0hWMENpQWdJQ0FnCklDQWdJQ0IwZVhCbFBTSjBa
-WGgwSWdvZ0lDQWdJQ0FnSUNBZ2RtRnNkV1U5ZTI1bGQxUmhjMnQ5Q2lBZwpJ
-Q0FnSUNBZ0lDQnZia05vWVc1blpUMTdLR1VwSUQwK0lITmxkRTVsZDFSaGMy
-c29aUzUwWVhKblpYUXUKZG1Gc2RXVXBmUW9nSUNBZ0lDQWdJQ0FnY0d4aFky
-Vm9iMnhrWlhJOUlrRmtaQ0JoSUc1bGR5QjBZWE5yCklnb2dJQ0FnSUNBZ0lD
-OCtDaUFnSUNBZ0lDQWdQR0oxZEhSdmJpQnZia05zYVdOclBYdGhaR1JVWVhO
-cgpmVDVCWkdRZ1ZHRnphend2WW5WMGRHOXVQZ29nSUNBZ0lDQThMMlJwZGo0
-S0lDQWdJQ0FnUEhWc0lHTnMKWVhOelRtRnRaVDBpZEdGemF5MXNhWE4wSWo0
-S0lDQWdJQ0FnSUNCN2RHRnphM011YldGd0tIUmhjMnNnClBUNGdLQW9nSUNB
-Z0lDQWdJQ0FnUEd4cElHdGxlVDE3ZEdGemF5NXBaSDBnWTJ4aGMzTk9ZVzFs
-UFh0MApZWE5yTG1OdmJYQnNaWFJsWkNBL0lDZGpiMjF3YkdWMFpXUW5JRG9n
-SnlkOVBnb2dJQ0FnSUNBZ0lDQWcKSUNCN1pXUnBkR2x1WjFSaGMyc2dQVDA5
-SUhSaGMyc3VhV1FnUHlBb0NpQWdJQ0FnSUNBZ0lDQWdJQ0FnClBHUnBkaUJq
-YkdGemMwNWhiV1U5SW1Wa2FYUXRZWEpsWVNJK0NpQWdJQ0FnSUNBZ0lDQWdJ
-Q0FnSUNBOAphVzV3ZFhRS0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ2RIbHda
-VDBpZEdWNGRDSUtJQ0FnSUNBZ0lDQWcKSUNBZ0lDQWdJQ0FnZG1Gc2RXVTll
-MlZrYVhSbFpGUmxlSFI5Q2lBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnCklHOXVR
-MmhoYm1kbFBYc29aU2tnUFQ0Z2MyVjBSV1JwZEdWa1ZHVjRkQ2hsTG5SaGNt
-ZGxkQzUyWVd4MQpaU2w5Q2lBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0F2UGdvZ0lD
-QWdJQ0FnSUNBZ0lDQWdJQ0FnUEdKMWRIUnYKYmlCdmJrTnNhV05yUFhzb0tT
-QTlQaUIxY0dSaGRHVlVZWE5yS0hSaGMyc3VhV1FwZlQ1VFlYWmxQQzlpCmRY
-UjBiMjQrQ2lBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0E4WW5WMGRHOXVJRzl1UTJ4
-cFkyczllMk5oYm1ObApiRVZrYVhScGJtZDlQa05oYm1ObGJEd3ZZblYwZEc5
-dVBnb2dJQ0FnSUNBZ0lDQWdJQ0FnSUR3dlpHbDIKUGdvZ0lDQWdJQ0FnSUNB
-Z0lDQXBJRG9nS0FvZ0lDQWdJQ0FnSUNBZ0lDQWdJRHhrYVhZZ1kyeGhjM05P
-CllXMWxQU0owWVhOckxXTnZiblJsYm5RaVBnb2dJQ0FnSUNBZ0lDQWdJQ0Fn
-SUNBZ1BITndZVzQrZTNSaApjMnN1ZEdWNGRIMDhMM053WVc0K0NpQWdJQ0Fn
-SUNBZ0lDQWdJQ0FnSUNBOFpHbDJJR05zWVhOelRtRnQKWlQwaWRHRnpheTFo
-WTNScGIyNXpJajRLSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnUEdKMWRIUnZi
-aUJ2CmJrTnNhV05yUFhzb0tTQTlQaUJqYjIxd2JHVjBaVlJoYzJzb2RHRnph
-eTVwWkNsOVBudDBZWE5yTG1OdgpiWEJzWlhSbFpDQS9JQ2RWYm1Sdkp5QTZJ
-Q2REYjIxd2JHVjBaU2Q5UEM5aWRYUjBiMjQrQ2lBZ0lDQWcKSUNBZ0lDQWdJ
-Q0FnSUNBZ0lEeGlkWFIwYjI0Z2IyNURiR2xqYXoxN0tDa2dQVDRnYzNSaGNu
-UkZaR2wwCmFXNW5LSFJoYzJzcGZUNUZaR2wwUEM5aWRYUjBiMjQrQ2lBZ0lD
-QWdJQ0FnSUNBZ0lDQWdJQ0FnSUR4aQpkWFIwYjI0Z2IyNURiR2xqYXoxN0tD
-a2dQVDRnWkdWc1pYUmxWR0Z6YXloMFlYTnJMbWxrS1gwK1JHVnMKWlhSbFBD
-OWlkWFIwYjI0K0NpQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBOEwyUnBkajRLSUNB
-Z0lDQWdJQ0FnCklDQWdJQ0E4TDJScGRqNEtJQ0FnSUNBZ0lDQWdJQ0FnS1gw
-S0lDQWdJQ0FnSUNBZ0lEd3ZiR2srQ2lBZwpJQ0FnSUNBZ0tTbDlDaUFnSUNB
-Z0lEd3ZkV3crQ2lBZ0lDQThMMlJwZGo0S0lDQXBPd3A5Q2dwbGVIQnYKY25R
-Z1pHVm1ZWFZzZENCQmNIQTdDZz09Cg==
+import React, { useState, useEffect } from 'react';
+import './App.css';
+
+function App() {
+  const [tasks, setTasks] = useState([]);
+  const [newTask, setNewTask] = useState('');
+  const [editingTask, setEditingTask] = useState(null);
+  const [editedText, setEditedText] = useState('');
+
+  useEffect(() => {
+    fetchTasks();
+  }, []);
+
+  const fetchTasks = async () => {
+    try {
+      const response = await fetch('/api/tasks');
+      const data = await response.json();
+      setTasks(data);
+    } catch (error) {
+      console.error('Error fetching tasks:', error);
+    }
+  };
+
+  const addTask = async () => {
+    if (newTask.trim()) {
+      try {
+        const response = await fetch('/api/tasks', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ text: newTask }),
+        });
+        const addedTask = await response.json();
+        setTasks([...tasks, addedTask]);
+        setNewTask('');
+      } catch (error) {
+        console.error('Error adding task:', error);
+      }
+    }
+  };
+
+  const deleteTask = async (id) => {
+    try {
+      await fetch(`/api/tasks/${id}`, {
+        method: 'DELETE',
+      });
+      setTasks(tasks.filter(task => task.id !== id));
+    } catch (error) {
+      console.error('Error deleting task:', error);
+    }
+  };
+
+  const completeTask = async (id) => {
+    try {
+      const response = await fetch(`/api/tasks/${id}/complete`, {
+        method: 'PUT',
+      });
+      const updatedTask = await response.json();
+      setTasks(tasks.map(task => (task.id === id ? updatedTask : task)));
+    } catch (error) {
+      console.error('Error completing task:', error);
+    }
+  };
+
+  const startEditing = (task) => {
+    setEditingTask(task.id);
+    setEditedText(task.text);
+  };
+
+  const cancelEditing = () => {
+    setEditingTask(null);
+    setEditedText('');
+  };
+
+  const updateTask = async (id) => {
+    if (editedText.trim()) {
+      try {
+        const response = await fetch(`/api/tasks/${id}`, {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ text: editedText }),
+        });
+        const updatedTask = await response.json();
+        setTasks(tasks.map(task => (task.id === id ? updatedTask : task)));
+        setEditingTask(null);
+        setEditedText('');
+      } catch (error) {
+        console.error('Error updating task:', error);
+      }
+    }
+  };
+
+  return (
+    <div className="App">
+      <h1>Task Management</h1>
+      <div className="input-area">
+        <input
+          type="text"
+          value={newTask}
+          onChange={(e) => setNewTask(e.target.value)}
+          placeholder="Add a new task"
+        />
+        <button onClick={addTask}>Add Task</button>
+      </div>
+      <ul className="task-list">
+        {tasks.map(task => (
+          <li key={task.id} className={task.completed ? 'completed' : ''}>
+            {editingTask === task.id ? (
+              <div className="edit-area">
+                <input
+                  type="text"
+                  value={editedText}
+                  onChange={(e) => setEditedText(e.target.value)}
+                />
+                <button onClick={() => updateTask(task.id)}>Save</button>
+                <button onClick={cancelEditing}>Cancel</button>
+              </div>
+            ) : (
+              <div className="task-content">
+                <span>{task.text}</span>
+                <div className="task-actions">
+                  <button onClick={() => completeTask(task.id)}>{task.completed ? 'Undo' : 'Complete'}</button>
+                  <button onClick={() => startEditing(task)}>Edit</button>
+                  <button onClick={() => deleteTask(task.id)}>Delete</button>
+                </div>
+              </div>
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default App;
