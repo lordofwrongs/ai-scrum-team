@@ -1,36 +1,14 @@
 .App {
-  font-family: sans-serif;
   text-align: center;
-  margin-top: 20px;
 }
 
-form {
-  margin-bottom: 20px;
-}
-
-input[type='text'] {
-  padding: 10px;
-  margin-right: 5px;
-}
-
-button {
-  padding: 10px 15px;
-  cursor: pointer;
-}
-
-li {
-  list-style: none;
-  margin: 5px 0;
-  padding: 10px;
-  background-color: #f0f0f0;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-}
-
-li button {
-  background-color: #ff4d4d;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
-  border: none;
-  padding: 5px 10px;
 }
