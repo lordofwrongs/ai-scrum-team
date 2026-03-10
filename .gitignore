@@ -1,8 +1,26 @@
-SXlCRVpYQmxibVJsYm1OcFpYTUtMMjV2WkdWZmJXOWtkV3hsY3dvS0l5QkNk
-V2xzWkNCdmRYUndkWFFLCkwyWnliMjUwWlc1a0wySjFhV3hrQ2dvaklFeHZa
-M01LYkc5bmN3b3FMbXh2WndwdWNHMHRaR1ZpZFdjdQpiRzluS2dwNVlYSnVM
-V1JsWW5WbkxteHZaeW9LZVdGeWJpMWxjbkp2Y2k1c2IyY3FDZ29qSUZKMWJu
-UnAKYldVZ1pHRjBZUXB3YVdSekNpb3VjR2xrQ2lvdWNHbGtMbXh2WTJzS0Np
-TWdTVVJGSUdacGJHVnpDaTVwClpHVmhDaTUyYzJOdlpHVUtLaTV6ZDNBS0tp
-NXpkMjhLQ2lNZ1QxTWdaMlZ1WlhKaGRHVmtJR1pwYkdWegpDaTVFVTE5VGRH
-OXlaUXBVYUhWdFluTXVaR0lLCg==
+# Dependencies
+/node_modules
+
+# Production
+/build
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Render specific
+# For Render, we don't need to explicitly ignore build artifacts 
+# if they are generated as part of the build process managed by Render.
+# However, if you have local build directories not part of the repo:
+# /frontend/build
