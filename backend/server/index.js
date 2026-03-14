@@ -3,32 +3,23 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Middleware to parse JSON bodies
-app.use(express.json());
+// Serve static files from the React frontend app
+app.use(express.static(path.join(__dirname, '..', '..', 'frontend', 'build')));
 
-// API Routes (stub endpoints)
+// API Routes (stubbed)
 app.get('/api/tasks', (req, res) => {
-  // In a real app, this would fetch tasks from a database
-  res.json([
-    { id: 1, title: 'Learn React', completed: false },
-    { id: 2, title: 'Build Task Manager', completed: false }
-  ]);
+  res.json([{ id: 1, title: 'Sample Task' }]);
 });
 
 app.post('/api/tasks', (req, res) => {
-  const newTask = { id: Date.now(), ...req.body };
-  res.status(201).json(newTask);
+  res.status(201).json({ message: 'Task created' });
 });
 
-// Serve frontend build files
-const buildPath = path.join(__dirname, '..', 'frontend', 'build');
-app.use(express.static(buildPath));
-
-// For any other route, serve the frontend index.html
+// Handle all other routes by serving the React app
 app.get('*', (req, res) => {
-  res.sendFile(path.join(buildPath, 'index.html'));
+  res.sendFile(path.join(__dirname, '..', '..', 'frontend', 'build', 'index.html'));
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
