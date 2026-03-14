@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Task Manager Frontend
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Task Manager</h1>
+        <p>Welcome to your task management application!</p>
       </header>
+      <main>
+        {/* Task list and form will go here */}
+        <section>
+          <h2>My Tasks</h2>
+          <p>Task 1</p>
+          <p>Task 2</p>
+        </section>
+      </main>
     </div>
   );
 }
