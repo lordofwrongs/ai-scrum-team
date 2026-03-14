@@ -5,16 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Task Manager</h1>
-        <p>Welcome to your task management application!</p>
+        <h1>Task Management Application</h1>
+        <p>Welcome to your task manager!</p>
       </header>
       <main>
-        {/* Task list and form will go here */}
-        <section>
-          <h2>My Tasks</h2>
-          <p>Task 1</p>
-          <p>Task 2</p>
-        </section>
+        {/* Task management UI will go here */}
       </main>
     </div>
   );
