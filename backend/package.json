@@ -1,14 +1,15 @@
 {
-  "name": "task-management-backend",
+  "name": "student-todo-backend",
   "version": "1.0.0",
-  "description": "Backend API for the Task Management Application.",
+  "description": "Backend API for Student To-Do App",
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
     "dev": "nodemon server/index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
