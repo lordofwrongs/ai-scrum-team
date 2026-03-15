@@ -1,17 +1,16 @@
 {
   "name": "task-management-backend",
   "version": "1.0.0",
-  "description": "RESTful API for managing to-do items.",
+  "description": "Backend API for the Task Management Application.",
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
     "dev": "nodemon server/index.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "path": "^0.12.7"
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^2.0.20"
   }
 }
