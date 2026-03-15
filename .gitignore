@@ -1,33 +1,15 @@
-# Dependencies
-node_modules/
-
-# Build output
-frontend/build/
-
-# Logs
-logs
-*.log
+# Node specific
+node_modules
+.env
+.env.*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Runtime data
-pids
-*.pid
-*.pid.lock
+# Build output
+frontend/build
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Editor directories and files
-.vscode/
-*.sublime-project
-*.sublime-workspace
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# IDE/Editor directories
+.idea
+.vscode
+*.iml
