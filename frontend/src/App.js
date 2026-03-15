@@ -5,11 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Task Management Application</h1>
-        <p>Welcome to your task manager!</p>
+        <h1>Student To-Do App</h1>
+        <p>Welcome to your personal task manager!</p>
       </header>
       <main>
-        {/* Task management UI will go here */}
+        {/* To-do list will go here */}
       </main>
     </div>
   );
